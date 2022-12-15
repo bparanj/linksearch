@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bookmark Search</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+      defer
+    ></script>
+  </head>
+
+  <body class="bg-grey-100 px-3 font-sans leading-normal tracking-normal">
+    <div class="container pt-8 mx-auto" x-data="loadHyperlinks()">
+      <input
+        x-ref="searchField"
+        x-model="search"
+        x-on:keydown.window.prevent.slash="$refs.searchField.focus()"
+        placeholder="Search for a link..."
+        type="search"
+        class="block w-full bg-gray-200 focus:outline-none focus:bg-white focus:shadow text-gray-700 font-bold rounded-lg px-4 py-3"
+      />
+      <div class="mt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <template x-for="item in filteredHyperlinks" :key="item">
+          <div
+            class="flex items-center shadow hover:bg-indigo-100 hover:shadow-lg hover:rounded transition duration-150 ease-in-out transform hover:scale-105 p-3"
+          >
+            <div class="text-sm">
+              <p
+                class="text-gray-900 leading-none"
+                x-text="item.title + ' (' + item.content + ')'"
+              ></p>
+                                              
+ <a x-bind:href="item.link" x-bind:target="'_blank'"
+                            class="text-blue-500" >Open</a>   
+              
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+    <script>
+      function loadHyperlinks() {
+        return {
+          search: "",
+          myForData: sourceData,
+          get filteredHyperlinks() {
+            if (this.search === "") {
+              return this.myForData;
+            }
+            return this.myForData.filter((item) => {
+              return item.title
+                .toLowerCase()
+                .includes(this.search.toLowerCase());
+            });
+          },
+        };
+      }
+
+      var sourceData = [
+        {
+          id: "1",
+          title: "Google",
+          content: "Slopping engine",
+          link: "https://www.google.com",
+        },
+        {
+          id: "2",
+          title: "Bing",
+          content: "Search engine wannabe",
+          link: "https://www.bing.com",
+        },
+        {
+          id: "3",
+          title: "Yahoo",
+          content: "Marissa killed it",
+          link: "https://www.yahoo.com",
+        },
+      ];
+    </script>
+  </body>
+</html>
