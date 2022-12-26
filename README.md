@@ -8,7 +8,6 @@ Fuse.js       - 6.6.2
 
 # Tasks
 
-- Remove pagination
-- Remove show dropdown box
-- Display all the data in one page
-- Clear search text field when escape button is pressed
+- Fix the flicker when pressing escape to clear the text field. 
+- Pressing escape once should clear the text field.
+- On selecting a result row, clear the text field.
