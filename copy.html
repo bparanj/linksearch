@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+
+    <div x-data="{}">
+			<p id="myText">Bonjour le monde</p>
+			<button class="btn" onclick="copyContent()">Copy!</button>
+    </div>
+
+
+<script>
+  let text = document.getElementById('myText').innerHTML;
+  const copyContent = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log('Content copied to clipboard');
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  }
+</script>
+</body>
+</html>	
