@@ -1,12 +1,12 @@
 # Link Search
 
-A simple client side search one page webapp using Alpine and Tailwind.
+A simple client side fuzzy search using Alpine, Fuse and Tailwind.
 
 ## Search and Table Files
 
-Fuzzy search using Fuse.js. This is good enough for small to moderately large data sets. The table.html is simplified version of search.html found online. It removes features not required. 
+Fuzzy search using Fuse.js. This is good enough for small to moderately large data sets. The table.html is simplified version of search.html found online. It removes features not required such as sorting, pagination, number of records to display etc. 
 
-Client side search using:
+Library versions:
 
 - Alpine.js			- 3.x.x
 - Tailwind CSS  - 3.2.4
@@ -16,18 +16,23 @@ Client side search using:
 
 The alpine.html does an exact string search using Javascript. The search data is on the client and stored as a JSON collection of objects.
 
-Client side search using:
+Library versions:
 
 - Alpine.js			- 2.x.x
 - Tailwind CSS  - 1.0
 
 The alpine.html is only for learning purpose. Use the table.html for further development.
 
-## Copy to Clipboard
+## Copy SSH Credentials
 
-The copy.html uses Javascript to copy text to clipboard.
+Customize the JSON data in ssh.html for your needs and open it in a browser to start using the search feature.
 
-- Integrate copy.html with the ssh.html to copy the password and command to clipboard.
+### Copy to Clipboard
+
+Pending: Integrate copy.html with the ssh.html to copy the password and command to clipboard.
+
+- Add a unique identifier to each command and password cells in the table. Use {index}_command and {index}_password)
+- The copy.html example uses Javascript to copy text to clipboard.
 
 # Tasks
 
