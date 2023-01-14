@@ -27,7 +27,6 @@ The alpine.html is only for learning purpose. Use the table.html for further dev
 
 The copy.html uses Javascript to copy text to clipboard.
 
-- Customize ssh.html to display name, command and password as a table.
 - Integrate copy.html with the ssh.html to copy the password and command to clipboard.
 
 # Tasks
