@@ -63,10 +63,14 @@
                     <span x-text="item.name"></span>
                   </td>
                   <td class="py-3">
-                    <span x-text="item.command"></span>
+										<button class='flex items-center px-4 py-3 text-white bg-blue-500 hover:bg-blue-400' x-on:click="navigator.clipboard.writeText(item.command)">
+										  Copy
+										</button>
                   </td>
                   <td class="py-3">
-                    <span x-text="item.password"></span>
+										<button class='flex items-center px-4 py-3 text-white bg-green-500 hover:bg-black-400' x-on:click="navigator.clipboard.writeText(item.password)">
+										  Copy
+										</button>
                   </td>
                 </tr>
               </template>
@@ -125,7 +129,7 @@
 		          keys: ['name']
 		        }                
 		        const fuse = new Fuse(data, options)
-		        this.items = fuse.search(value).map(elem => elem.item)
+		        this.items = fuse.search(value).map(element => element.item)
 		      } else {
 		        this.items = data
 		      }

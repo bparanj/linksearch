@@ -27,15 +27,9 @@ The alpine.html is only for learning purpose. Use the table.html for further dev
 
 Customize the JSON data in ssh.html for your needs and open it in a browser to start using the search feature.
 
-### Copy to Clipboard
-
-Pending: Integrate copy.html with the ssh.html to copy the password and command to clipboard.
-
-- Add a unique identifier to each command and password cells in the table. Use {index}_command and {index}_password)
-- The copy.html example uses Javascript to copy text to clipboard.
-
 # Tasks
 
+- On hitting enter display the results table and allow copy of command and password
 - Use linksearch.html and display the links (title, Open button for the link opening in new tab)
 - Fix the flicker when pressing escape to clear the text field. 
 - Pressing escape once should clear the text field.
