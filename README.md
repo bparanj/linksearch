@@ -2,30 +2,37 @@
 
 A simple client side fuzzy search using Alpine, Fuse and Tailwind.
 
-## Search and Table Files
+Fuzzy search using Fuse.js. This is good enough for small to moderately large data sets. 
 
-Fuzzy search using Fuse.js. This is good enough for small to moderately large data sets. The table.html is simplified version of search.html found online. It removes features not required such as sorting, pagination, number of records to display etc. 
+## Dependencies
 
-Library versions:
+Library Versions
 
 - Alpine.js			- 3.x.x
 - Tailwind CSS  - 3.2.4
 - Fuse.js       - 6.6.2
 
-## Alpine HTML File
+## File Description
 
-The alpine.html does an exact string search using Javascript. The search data is on the client and stored as a JSON collection of objects.
+| File Name       | Description |
+| --------------- | ----------- |
+| search.html     | Original file found online (search, sort, paginate, rows to display)   |
+| table.html      | Simplified version of search.html 															       |
+| ssh.html        | Ready to use for search and copy credentials to clipboard 						 |
+| alpine.html     | Used for learning purposes only 																			 |
+| copy.html       | Simple javascript copy feature 																				 |
+| landing.html    | Uses paid Tailwind components  																				 |
+| linksearch.html | Needs to be customized. Currently has the starting point 							|
+| table.html      | Removed number of rows dropdown and pagination. Can be used as the starting point |
 
-Library versions:
+The alpine.html does an exact string search using Javascript. The search data is on the client and stored as a JSON collection of objects. Library versions:
 
 - Alpine.js			- 2.x.x
 - Tailwind CSS  - 1.0
 
-The alpine.html is only for learning purpose. Use the table.html for further development.
+## Copy SSH Credentials to Clipboard
 
-## Copy SSH Credentials
-
-Customize the JSON data in ssh.html for your needs and open it in a browser to start using the search feature.
+Customize the JSON data in ssh.html for your needs and open it in a browser to start using the search and copy to clipboard feature.
 
 # Tasks
 
