@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdn.tailwindcss.com"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="https://unpkg.com/tippy.js@6"></script>
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	<script defer src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 	
@@ -66,7 +68,7 @@
                     <span x-text="item.name"></span>
                   </td>
                   <td class="py-3">
-										<button class='flex items-center px-4 py-3 text-white bg-blue-500 hover:bg-blue-400' x-on:click="navigator.clipboard.writeText(item.command)">
+										<button class='flex items-center px-4 py-3 text-white bg-blue-500 hover:bg-blue-400' @click="$tooltip('Copied!')">
 										  Copy
 										</button>
                   </td>
@@ -141,5 +143,23 @@
 		  }
 		}
   </script>
+		
+	<script>
+	    document.addEventListener('alpine:init', () => {
+	        // Magic: $tooltip
+	        Alpine.magic('tooltip', el => message => {
+	            let instance = tippy(el, { content: message, trigger: 'manual' })
+
+	            instance.show()
+
+	            setTimeout(() => {
+	                instance.hide()
+
+	                setTimeout(() => instance.destroy(), 150)
+	            }, 2000)
+	        })
+
+	    })
+	</script>	
 </body>
 </html>
