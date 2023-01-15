@@ -34,6 +34,18 @@ The alpine.html does an exact string search using Javascript. The search data is
 
 Customize the JSON data in ssh.html for your needs and open it in a browser to start using the search and copy to clipboard feature.
 
+## Inventive Principles Used
+
+| Principle        | Description |
+| ---------------  | ----------- |
+| Segmentation     | Divide a system or object into separate independent parts or sections. Make a system modular so that it becomes easy to put together and take apart   |
+| Merging     		 | Merge in space - Merge related object to work together in space. HTML centric development.   |
+| Nested Doll      | Allow one object to pass through an appropriate hole in another. Alpine directives.   |
+| Prior Action     | Perform a useful action (either fully or partly) before it is needed. 70 to 90 percent reuse of code.   |
+| Other Way Around | Turn the process upside down. Declarative style code in HTML.   |
+| Dynamize     		 | Split a system into parts that are capable of moving relative to each other. CSS and Javascript libraries can easily be integrated.   |
+| Partial or Excessive Action | If an action is difficult and can be easily done in future, better do it less or partial. Use the customized starter templates for new features.|
+
 # Tasks
 
 - Setup paid Tailwind to make landing.html work
