@@ -25,13 +25,16 @@
             <div>
               <input x-model="searchInput"
 										 @keydown.escape.window="searchInput = ''"
-										 @click.away="searchInput = ''"
 										 type="text" 
 										 autofocus
 										 class="px-2 py-1 border rounded focus:outline-none" 
 										 placeholder="Search...">
+							<button class='px-4 py-3 text-white bg-orange-500 hover:bg-gray-400' x-on:click="searchInput = ''">
+							  Clear
+							</button>			 
             </div>
           </div>
+					
           <table class="mt-5">
             <thead class="border-b-2">
               <th width="20%">

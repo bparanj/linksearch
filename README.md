@@ -29,6 +29,7 @@ Customize the JSON data in ssh.html for your needs and open it in a browser to s
 
 # Tasks
 
+- Setup paid Tailwind to make landing.html work
 - On hitting enter display the results table and allow copy of command and password
 - Use linksearch.html and display the links (title, Open button for the link opening in new tab)
 - Fix the flicker when pressing escape to clear the text field. 
