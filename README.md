@@ -19,11 +19,11 @@ Library Versions
 | search.html     | Original file found online (search, sort, paginate, rows to display)   |
 | table.html      | Simplified version of search.html 															       |
 | ssh.html        | Ready to use for search and copy credentials to clipboard 						 |
-| alpine.html     | Used for learning purposes only 																			 |
 | copy.html       | Simple javascript copy feature 																				 |
 | landing.html    | Uses paid Tailwind components  																				 |
-| linksearch.html | Needs to be customized. Currently has the starting point 							 |
-| table.html      | Removed number of rows dropdown and pagination. Can be used as the starting point |
+| linksearch.html | First working version complete													 							 |
+| table.html      | Removed number of rows dropdown and pagination. Starting point				 |
+| alpine.html     | Used for learning purposes only 																			 |
 
 The alpine.html does an exact string search using Javascript. The search data is on the client and stored as a JSON collection of objects. Library versions:
 
@@ -33,6 +33,17 @@ The alpine.html does an exact string search using Javascript. The search data is
 ## Copy SSH Credentials to Clipboard
 
 Customize the JSON data in ssh.html for your needs and open it in a browser to start using the search and copy to clipboard feature.
+
+### Dependencies
+
+- Tippy
+- Popper
+
+## Search Hyperlinks
+
+Customize the JSON data in linksearch.html for your needs and open it in a browser to start using the search and open link in new tab feature.
+
+The link is dynamically bound to a variable using bind Aline directive.
 
 ## Inventive Principles Used
 
@@ -48,8 +59,8 @@ Customize the JSON data in ssh.html for your needs and open it in a browser to s
 
 # Tasks
 
-- Use Alpine tooltip component in ssh.html after the content is copied to clipboard: 'Copied!'. Learn how to pass a string and variable to the magic directive.
-- Customize linksearch.html. Search feature with clear button. Change the data to title and link. Open the link in new tab.
+- Use Alpine tooltip component in ssh.html after the content is copied to clipboard: 'Copied!'. Learn how to pass a string and variable to the magic directive. PENDING
+- Customize linksearch.html. Search feature with clear button. Polish the UI. 
 - Setup paid Tailwind to make landing.html work
 - Purine levels in foods (low, moderate, high). Sort by purine level.
 - On hitting enter display the results table and allow copy of command and password
@@ -57,3 +68,22 @@ Customize the JSON data in ssh.html for your needs and open it in a browser to s
 - Fix the flicker when pressing escape to clear the text field. 
 - Pressing escape once should clear the text field.
 - On selecting a result row, clear the text field.
+
+# Utilities
+
+For removing unwanted key-value pair in a list of JSON objects:
+
+```javascript
+for(var i = 0; i < data.length; i++) {
+	delete data[i]['year'];
+}
+```
+
+View the result:
+
+```
+console.log(data)
+console.table(data)
+```
+
+Right click on the data object and click Copy object in Javascript console.
