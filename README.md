@@ -68,7 +68,7 @@ The link is dynamically bound to a variable using bind Aline directive.
 - Use Alpine tooltip component in ssh.html after the content is copied to clipboard: 'Copied!'. Learn how to pass a string and variable to the magic directive.
 - In ssh.html, on hitting enter display the results table and allow copy of command and password
 - Fix the flicker when pressing escape to clear the text field. 
-- Pressing escape once should clear the text field.
+- Pressing escape once should clear the text field. Currently you have to hit escape twice.
 - On selecting a result row, clear the text field.
 
 # Utilities
