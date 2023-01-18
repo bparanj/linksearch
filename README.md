@@ -43,7 +43,7 @@ Customize the JSON data in ssh.html for your needs and open it in a browser to s
 
 Customize the JSON data in linksearch.html for your needs and open it in a browser to start using the search and open link in new tab feature.
 
-The link is dynamically bound to a variable using bind Aline directive.
+The link is dynamically bound to a variable using Aline bind directive.
 
 ## Inventive Principles Used
 
@@ -66,10 +66,11 @@ The link is dynamically bound to a variable using bind Aline directive.
 
 - Customize linksearch.html. Search feature with clear button. Polish the UI. 
 - Use Alpine tooltip component in ssh.html after the content is copied to clipboard: 'Copied!'. Learn how to pass a string and variable to the magic directive.
-- In ssh.html, on hitting enter display the results table and allow copy of command and password
+- In ssh.html, on hitting enter display the results table and allow copy of command and password.
 - Fix the flicker when pressing escape to clear the text field. 
 - Pressing escape once should clear the text field. Currently you have to hit escape twice.
 - On selecting a result row, clear the text field.
+- Use https://www.npmjs.com/package/convert-csv-to-json npm package to convert CSV file to JSON
 
 # Utilities
 
