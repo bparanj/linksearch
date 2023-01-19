@@ -43,7 +43,7 @@ Customize the JSON data in ssh.html for your needs and open it in a browser to s
 
 Customize the JSON data in linksearch.html for your needs and open it in a browser to start using the search and open link in new tab feature.
 
-The link is dynamically bound to a variable using Aline bind directive.
+The bookmark link is dynamically bound to a variable using Aline bind directive.
 
 ## Inventive Principles Used
 
@@ -74,6 +74,8 @@ The link is dynamically bound to a variable using Aline bind directive.
 
 # Utilities
 
+## Remove Pairs
+
 For removing unwanted key-value pair in a list of JSON objects:
 
 ```javascript
@@ -90,3 +92,15 @@ console.table(data)
 ```
 
 Right click on the data object and click Copy object in Javascript console.
+
+## CSV to JSON Converter
+
+```javascript
+let csvToJson = require('convert-csv-to-json');
+
+let fileInputName = 'test.csv'; 
+let fileOutputName = 'test.json';
+
+csvToJson.fieldDelimiter(',')
+csvToJson.generateJsonFileFromCsv(fileInputName, fileOutputName);
+```
