@@ -68,12 +68,12 @@
                     <span x-text="item.name"></span>
                   </td>
                   <td class="py-3">
-										<button class='flex items-center px-4 py-3 text-white bg-blue-500 hover:bg-blue-400' @click="$tooltip('Copied!')">
+										<button class='flex items-center px-4 py-3 text-white bg-blue-500 hover:bg-blue-400' @click="$clipboard(item.command);$tooltip('Copied!')">
 										  Copy
 										</button>
                   </td>
                   <td class="py-3">
-										<button class='flex items-center px-4 py-3 text-white bg-green-500 hover:bg-black-400' x-on:click="navigator.clipboard.writeText(item.password)">
+										<button class='flex items-center px-4 py-3 text-white bg-green-500 hover:bg-black-400' @click="$clipboard(item.password);$tooltip('Copied!')">
 										  Copy
 										</button>
                   </td>
@@ -146,18 +146,25 @@
 		
 	<script>
 	  document.addEventListener('alpine:init', () => {
-	      // Magic: $tooltip
-	      Alpine.magic('tooltip', el => message => {
-	          let instance = tippy(el, { content: message, trigger: 'manual' })
 
-	          instance.show()
+			// Magic: $clipboard
+			Alpine.magic('clipboard', () => {
+			  return subject => navigator.clipboard.writeText(subject)
+			})
 
-	          setTimeout(() => {
-	              instance.hide()
+	    // Magic: $tooltip
+	    Alpine.magic('tooltip', el => message => {
 
-	              setTimeout(() => instance.destroy(), 150)
-	          }, 2000)
-	      })
+	      let instance = tippy(el, { content: message, trigger: 'manual' })
+
+	      instance.show()
+
+	      setTimeout(() => {
+	        instance.hide()
+
+	        setTimeout(() => instance.destroy(), 150)
+	      }, 2000)
+	    })
 
 	  })
 	</script>	
