@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="bookmark.js"></script>
+	
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+	
+	<title>Alpine Client Side Search</title>
+</head>
+
+<body class="relative">
+  <div class="bg-gray-200 py-24 min-h-screen">
+    <div class="container mx-auto w-full h-full">
+      <div class="max-w-screen-lg mx-auto w-full h-full flex flex-col items-center justify-center">
+        <div x-data="dataTable()"
+			       x-init="
+			        $watch('searchInput', value => {
+			          search(value)
+			        })" 
+						 class="bg-white p-5 shadow-md w-full flex flex-col">
+          <div class="flex justify-between items-center">						
+            <div>
+              <input x-model="searchInput"
+										 @keydown.escape="searchInput = ''"
+										 type="text" 
+										 autofocus
+										 class="px-2 py-1 border rounded focus:outline-none" 
+										 placeholder="Search...">
+            </div>
+          </div>
+          <table class="mt-5">
+            <thead class="border-b-2">
+              <th width="40%">
+                <div class="flex space-x-2">
+                  <span>
+                    Name
+                  </span>
+                </div>
+              </th>
+              <th width="2%">
+                <div class="flex items-center space-x-2">
+                  <span class="">
+                    Link
+                  </span>
+                </div>
+              </th>
+            </thead>
+            <tbody>
+              <template x-for="(item, index) in items" :key="index">
+                <tr class="hover:bg-gray-200 text-gray-900 text-xs">
+                  <td class="py-3">
+                    <span x-text="item.name"></span>
+                  </td>
+                  <td class="py-3">
+										<a x-bind:href="item.link" 
+										   x-bind:target="'_blank'"
+										   class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900" >OPEN</a>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
