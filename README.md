@@ -54,9 +54,15 @@ The bookmark link is dynamically bound to a variable using Aline bind directive.
 
 # Tasks
 
+- Start at loops.html to see how add works
 - Setup paid Tailwind to make landing.html work
 		Use PostCSS and npm to setup landing.html
 - Refer model.html and see how to add input text field to the color dropdown. Add the new color to the dropdown if Add button is clicked.
+		Identify the data. colors: Red, Green, Blue etc
+		Identify the behavior. add a new color to colors array on Add button click
+		Display the data. Loop through the colors and display the colors in the dropdown.
+		The new component will be a combination of basic binding and select code snippets in model.html
+
 - Purine levels in foods (low, moderate, high). Sort by purine level.
 
 ## Nice to Haves
