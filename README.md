@@ -55,11 +55,13 @@ The bookmark link is dynamically bound to a variable using Aline bind directive.
 # Tasks
 
 - Setup paid Tailwind to make landing.html work
+		Use PostCSS and npm to setup landing.html
+- Refer model.html and see how to add input text field to the color dropdown. Add the new color to the dropdown if Add button is clicked.
 - Purine levels in foods (low, moderate, high). Sort by purine level.
 
 ## Nice to Haves
 
-- Customize bookmark.html. Search feature with clear button. Polish the UI. 
+- Customize bookmark.html.
 - In ssh.html, on hitting enter display the results table and allow copy of command and password.
 - Fix the flicker when pressing escape to clear the text field. 
 - Pressing escape once should clear the text field. Currently you have to hit escape twice.
@@ -108,6 +110,23 @@ npm : 9.3.1
 Tailwind : 3.2
 
 See tailwind.html for Inter font family CDN link. See tailwind.config.js for Inter font configuration.
+
+## Standalone Tailwind CLI
+
+curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/download/v3.2.4/tailwindcss-macos-arm64
+chmod +x tailwindcss-macos-arm64
+mv tailwindcss-macos-arm64 tailwindcss
+
+<!-- Create a tailwind.config.js file -->
+./tailwindcss init
+
+<!-- Start a watcher -->
+./tailwindcss -i input.css -o output.css --watch
+
+This is hanging with message: Rebuilding...
+
+<!-- Compile and minify your CSS for production -->
+./tailwindcss -i input.css -o output.css --minify
 
 # Inventive Principles Used
 
