@@ -4,11 +4,14 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdn.tailwindcss.com"></script>
-	<script src="https://unpkg.com/@popperjs/core@2"></script>
-	<script src="https://unpkg.com/tippy.js@6"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
+  <script type="module" src="ssh.js"></script>
+	
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 	<script defer src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="https://unpkg.com/tippy.js@6"></script>
 	
 	<title>Alpine Client Side Fuzzy Search using Fuse</title>
 </head>
@@ -86,87 +89,6 @@
       </div>
     </div>
   </div>
-  <script>
-    let data = [
-			{"name":"Brielle Kuphal","command":"Brielle31@gmail.com","password":"Global Metrics Developer"},
-			{"name":"Barney Murray","command":"Barney75@gmail.com","password":"Product Solutions Executive"},
-			{"name":"Ressie Ruecker","command":"Ressie.Ruecker30@gmail.com","password":"Forward Factors Orchestrator"},
-			{"name":"Teresa Mertz","command":"Teresa_Mertz@hotmail.com","password":"Dynamic Division Director"},
-			{"name":"Chelsey Hackett","command":"Chelsey_Hackett@gmail.com","password":"Senior Accountability Architect"},
-			{"name":"Tatyana Metz","command":"Tatyana_Metz91@gmail.com","password":"Regional Metrics Coordinator"},
-			{"name":"Oleta Harvey","command":"Oleta_Harvey@yahoo.com","password":"District Usability Producer"},
-			{"name":"Bette Haag","command":"Bette.Haag99@gmail.com","password":"Dynamic Program Orchestrator"},
-			{"name":"Meda Ebert","command":"Meda_Ebert8@yahoo.com","password":"Product Division Orchestrator"},
-			{"name":"Elissa Stroman","command":"Elissa.Stroman6@yahoo.com","password":"Dynamic Applications Developer"},
-			{"name":"Sid Swaniawski","command":"Sid_Swaniawski@hotmail.com","password":"Forward Interactions Designer"},
-			{"name":"Madonna Hahn","command":"Madonna10@gmail.com","password":"Customer Configuration Specialist"},
-			{"name":"Waylon Kihn","command":"Waylon27@yahoo.com","password":"National Security Facilitator"},
-			{"name":"Jaunita Lindgren","command":"Jaunita_Lindgren@yahoo.com","password":"Senior Identity Consultant"},
-			{"name":"Lenora MacGyver","command":"Lenora_MacGyver@yahoo.com","password":"Corporate Factors Manager"},
-			{"name":"Ole Collier","command":"Ole51@hotmail.com","password":"Corporate Factors Assistant"},
-			{"name":"Taurean Koelpin","command":"Taurean.Koelpin@gmail.com","password":"District Intranet Officer"},
-			{"name":"Thalia Yost","command":"Thalia73@gmail.com","password":"Dynamic Usability Director"},{"name":"Okey Kling","command":"Okey84@gmail.com","password":"District Metrics Manager"},
-			{"name":"Darrick Ortiz","command":"Darrick73@yahoo.com","password":"Chief Metrics Agent"},
-			{"name":"Eulalia Vandervort","command":"Eulalia.Vandervort63@gmail.com","password":"Future Creative Manager"},
-			{"name":"Genevieve Pouros","command":"Genevieve29@hotmail.com","password":"Investor Identity Facilitator"},
-			{"name":"Horacio Purdy","command":"Horacio65@yahoo.com","password":"Direct Accountability Producer"},
-			{"name":"Eleazar Konopelski","command":"Eleazar_Konopelski@hotmail.com","password":"National Usability Engineer"},
-			{"name":"Herminia Effertz","command":"Herminia.Effertz78@gmail.com","password":"Central Usability Manager"},
-			{"name":"Brian Hermann","command":"Brian12@hotmail.com","password":"Central Optimization Coordinator"},
-			{"name":"Wellington Barrows","command":"Wellington.Barrows@gmail.com","password":"Customer Identity Engineer"},
-			{"name":"David Rosenbaum","command":"David75@hotmail.com","password":"Global Research Administrator"},
-			{"name":"Pinkie Reilly","command":"Pinkie.Reilly67@gmail.com","password":"Internal Data Director"},
-			{"name":"Asha Bartell","command":"Asha82@gmail.com","password":"Global Security Associate"},
-			{"name":"Alexane Bode","command":"Alexane_Bode30@yahoo.com","password":"Product Integration Planner"},
-			{"name":"Estelle Bode","command":"Estelle_Bode@yahoo.com","password":"Lead Marketing Producer"},
-			{"name":"Jeromy Mayer","command":"Jeromy39@yahoo.com","password":"Direct Accountability Director"},
-			{"name":"Ephraim Wiegand","command":"Ephraim88@gmail.com","password":"Direct Identity Administrator"},
-			{"name":"Jarrett Grimes","command":"Jarrett.Grimes99@gmail.com","password":"International Web Strategist"}]
 		
-		window.dataTable = function () {
-		  return {
-		    items: data,
-		    searchInput: '',
-		    search(value) {
-		      if (value.length > 1) {
-		        const options = {
-		          shouldSort: true,
-		          keys: ['name']
-		        }                
-		        const fuse = new Fuse(data, options)
-		        this.items = fuse.search(value).map(element => element.item)
-		      } else {
-		        this.items = data
-		      }
-		      // console.log(this.items.length)      
-		    }
-		  }
-		}
-  </script>
-		
-	<script>
-	  document.addEventListener('alpine:init', () => {
-
-			// Magic: $clipboard
-			Alpine.magic('clipboard', () => {
-			  return subject => navigator.clipboard.writeText(subject)
-			})
-
-	    // Magic: $tooltip
-	    Alpine.magic('tooltip', el => message => {
-
-	      let instance = tippy(el, { content: message, trigger: 'manual' })
-
-	      instance.show()
-
-	      setTimeout(() => {
-	        instance.hide()
-
-	        setTimeout(() => instance.destroy(), 150)
-	      }, 2000)
-	    })
-
-	  })
-	</script>	
 </body>
 </html>
