@@ -1,0 +1,38 @@
+How do I decide whether the code should be part of background script, popup or options page?
+
+When building a Chrome browser extension, the code can be divided into three main parts: the background script, the popup, and the options page. The background script runs in the background and is responsible for maintaining the extension's state, communicating with web pages and other extensions, and handling browser events. The popup is the HTML page that is displayed when the user clicks the extension's icon, and is typically used to display information or provide a user interface for interacting with the extension. The options page is an HTML page that is opened when the user clicks the extension's Options link, and is typically used to provide a user interface for configuring the extension's settings.
+
+To decide whether the code should be part of background script, popup or options page, you should consider the purpose of the code and the user interface that it requires. Code that needs to run in the background and interact with web pages or other extensions should be part of the background script. Code that requires a user interface for displaying information or interacting with the extension should be part of the popup. Code that requires a user interface for configuring the extension's settings should be part of the options page.
+
+What about the content scripts? When should I use it?
+
+Content scripts are JavaScript files that are executed by the browser when a web page is loaded. They have access to the DOM of the web page and can interact with it, but they do not have access to the web page's JavaScript context.
+
+You should use content scripts when your extension needs to interact with a specific web page. For example, if your extension needs to modify the content of a web page, retrieve information from it, or respond to user interactions on the page, you can use content scripts to do that. Because content scripts have access to the DOM of the web page, they can manipulate the content of the page, add new elements to it, or remove existing elements. They can also listen for events on the page, like user clicks or form submissions, and respond to them.
+
+You can use content scripts in conjunction with background scripts to communicate between them. For example, the background script can pass information to the content script to be displayed on the page, or the content script can send data back to the background script for processing.
+
+Can I use Alpine.js for building Chrome browser extensions?
+
+Alpine.js is a lightweight JavaScript library that allows you to add interactivity to your HTML elements, similar to Vue.js and React.js. You can use Alpine.js for building Chrome browser extensions, as long as the extension is a single-page application that runs completely client-side.
+
+If your extension requires to interact with web pages, you can use Alpine.js in the content scripts as well as in the popup and options page. By using Alpine.js in the content script, you can interact with the DOM of the web page, and with the popup and options page you can create a user interface for interacting with the extension's settings.
+
+Keep in mind that if your extension requires to interact with the chrome APIs or web pages, you should use the chrome.runtime and chrome.tabs APIs in the background script, you can't use it in the content script.
+
+In summary, you can use Alpine.js for building Chrome browser extensions, but it would be limited to the extension's user interface and would not have access to browser APIs or the ability to interact with web pages.
+
+Can I use Rails API as the backend system for the extension?
+
+Yes, you can use a Rails API as the backend system for a Chrome browser extension. By doing so, you can use the Rails API to handle server-side logic, such as data storage, user authentication, and other functionality that requires server-side processing.
+
+To communicate between the extension and the Rails API, you can use standard web technologies like AJAX or the fetch API. You can make requests from the extension's JavaScript code to the Rails API to retrieve or update data, and the Rails API can respond with the necessary information.
+
+Keep in mind that when you use a Rails API as the backend for a Chrome browser extension, it will require an internet connection to work, so the extension may not work when the user is offline. Also, you need to handle the CORS(Cross-Origin Resource Sharing) issues, you need to configure the headers accordingly in the Rails API to allow the extension to access the resources.
+
+In summary, it is possible to use a Rails API as the backend system for a Chrome browser extension, but you will need to implement the logic to handle the communication between the extension and the API, and also handle the CORS issues.
+
+How will the backend system know whether the user is logged in or not?
+
+Use token authentication
+
