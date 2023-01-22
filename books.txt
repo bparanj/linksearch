@@ -1,0 +1,57 @@
+Software
+
+ Just like nature does not have any distinct fields like Physics, Chemistry, Biology etc. The software does not really have distinctions like front end, backend, machine learning etc. The examples used in this book will not have such arbitrary distinctions. So the concepts will be illustrated using devops such as Kubernetes. Because in reality the software is just software and the chosen example illustrate the principle really well. 
+
+The evolution might have occurred without being aware of these principles in action. The purpose of this book to bring those concepts from the realm of experts and make it available to anyone at any skill level.
+
+Can you recommend a few good books to learn about how to apply TRIZ in software development?
+
+"TRIZ for Engineers: Enabling Inventive Problem Solving" by Karen Gadd is a good book that provides an introduction to the principles of TRIZ and how they can be applied to engineering and software development.
+
+"TRIZ for Software Developers" by Pavel Gubanov is another great book that explores how to apply TRIZ to software development specifically. It covers a wide range of topics including requirements engineering, design, testing and maintenance.
+
+"TRIZ for Software Engineers" by David Levy is a good resource that presents a variety of real-world examples and case studies of how TRIZ has been successfully applied in software development projects.
+
+"TRIZ for Product Development: An Overview" by Robert L. Trizle is a good book that provides an overview of how to apply the principles of TRIZ to product development, including software development.
+
+All of these books provide practical information and examples of how to apply the principles of TRIZ to software development and should be helpful in learning how to apply TRIZ to your own projects.
+
+ 1. Engineering of Creativity Introduction to TRIZ Methodology of Inventive Problem Solving (Semyon D. Savransky)
+
+2. TRIZ For Dummies (Lilly Haines-Gadd)
+
+3. Innovation AlgorithmTRIZ, systematic innovation and technical creativity (Genrich Altshuller)
+
+4. Lean TRIZ how to dramatically reduce product-development costs with this innovative problem-solving tool (Harrington, H. James)
+
+5. TRIZ for Engineers: Enabling Inventive Problem Solving (Karen Gadd)
+
+6. Advances and Impacts of the Theory of Inventive Problem Solving The TRIZ Methodology, Tools and Case Studies (Sebastian Koziołek, Leonid Chechurin etc
+
+7. Innovation on Demand New Product Development Using TRIZ (Victor Fey, Eugene Rivin)
+
+8. Inventive Thinking through TRIZ A Practical Guide, Second Edition (Michael A. Orloff)
+
+9. Modern TRIZ A Practical Course with EASyTRIZ Technology (Michael A. Orloff
+
+10. Modern TRIZ Modeling in Master Programs - Introduction to TRIZ Basics at University and Industry (Orloff, Michael A)
+
+11. Research and Practice on the Theory of Inventive Problem Solving (TRIZ) Linking Creativity, Engineering and Innovation (Leonid Chechurin)
+
+12. Simplified TRIZ New Problem Solving Applications for Technical and Business Professionals, 3rd Edition (Kalevi Rantanen, David W. Conley, Ellen R. Domb)
+
+13. Trimming, Miniaturization and Ideality via Convolution Technique of TRIZ A Guide to Lean and High-level Inventive Design (Saurabh Kwatra, Yuri Salamatov)
+
+14. TRIZ POWER TOOLS Job 1 Discovering Markets Carving out New Turf in Saturated Markets (Larry Ball and others
+
+15. TRIZ POWER TOOLS Job 2 Choosing Features What Features Will Excite the Target Market (Larry Ball and others
+
+16. TRIZ POWER TOOLS Skill 1 Resolving Contradictions The Skill that Will Give You the Confidence to Do the Rest
+
+17. TRIZ. Theory of Inventive Problem Solving Level 1 (Vladimir Petrov)
+
+18. Trizics Teach yourself TRIZ, how to invent, innovate and solve impossible technical problems systematically (Gordon Cameron)
+
+19. Triz the Right Solution at the Right Time A Guide to Innovative Problem Solving - Yuri Salamatov
+
+

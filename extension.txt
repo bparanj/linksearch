@@ -34,5 +34,109 @@ In summary, it is possible to use a Rails API as the backend system for a Chrome
 
 How will the backend system know whether the user is logged in or not?
 
-Use token authentication
+When using a Rails API as the backend system for a Chrome browser extension, you can use a number of different strategies to determine whether a user is logged in or not. One common approach is to use JSON Web Tokens (JWT) for authentication.
+
+When a user logs in, the extension sends their credentials to the Rails API, which verifies them and generates a JWT. This JWT is then sent back to the extension, which stores it in the browser's local storage. Every subsequent request from the extension to the Rails API will include the JWT in the headers. The Rails API can then validate the JWT and determine that the user is logged in.
+
+Another approach could be to store the user's session ID in the browser's local storage and send it with every request to the Rails API. The Rails API can then use the session ID to look up the user's session and determine whether they are logged in or not.
+
+On the other hand, you can also use the OAuth2 protocol to authenticate the user with the backend system. This way the user will be able to log in using their Google, Facebook, or other account, and the backend system can validate the token and determine if the user is logged in.
+
+In summary, there are different ways to determine whether a user is logged in or not when using a Rails API as the backend system for a Chrome browser extension. The most common approaches are using JSON Web Tokens, session IDs, or OAuth2.
+
+Can you write code for OAuth2 ?
+
+Sure, here's an example of how you can implement OAuth2 authentication in a Rails API for a Chrome browser extension:
+
+In the Rails API, you'll need to set up an OAuth2 provider, such as Doorkeeper. You can add it to your Gemfile and run bundle install.
+
+gem 'doorkeeper'
+
+Run the generator to create the initial configuration files and database migration:
+
+rails generate doorkeeper:install
+
+Run the migration to create the database tables:
+
+rails db:migrate
+
+In the config/routes.rb file, add the following line to mount the Doorkeeper routes:
+
+use_doorkeeper
+
+Next, you'll need to create a client application in the Rails API. You can do this by running the following command:
+
+rails generate doorkeeper:application_owner
+
+This will create a migration for creating an ApplicationOwner model, which will represent the client application.
+
+Run the migration to create the table:
+
+rails db:migrate
+
+Now, you can create a new application in the Rails API by creating a new instance of the ApplicationOwner model, and set the redirect_uri to the extension's URL.
+
+In the chrome extension, you can use the chrome.identity API to handle the OAuth2 flow.
+
+chrome.identity.launchWebAuthFlow({
+    url: `https://your-rails-api.com/oauth/authorize?client_id=${client_id}&redirect_uri=${redirect_uri}&response_type=token`,
+    interactive: true
+}, function(redirect_url) {
+    // the redirect_url will contain the access_token
+});
+
+Once you get the access token, you can use it in the headers of every request made to the backend system to authenticate the user.
+Please note that this is just an example and you may need to adjust it according to your specific needs and implementation. Also, the above code is for the client side (Chrome Extension), you may need to do some adjustments in the server side (Rails API) too.
+
+Please let me know if there is anything else you would like me to explain.
+
+Can you compare the JWT approach with OAuth2 ?
+
+Sure, here's a comparison of the JSON Web Token (JWT) approach and the OAuth2 approach for authentication in a Chrome browser extension that uses a Rails API as the backend:
+
+JWT:
+
+JSON Web Tokens are self-contained, meaning they contain all the information needed to authenticate a user in a single token. This means that the Rails API does not need to keep track of any sessions or store any information about the user, making it stateless.
+JWT tokens are signed, meaning the Rails API can verify that the token was issued by the server and has not been tampered with.
+JWTs can be easily passed in the headers of a request, making them easy to use with APIs.
+Because JWTs are self-contained, they can be easily stored in the browser's local storage, meaning that the user's session can persist even if they close the browser or the extension.
+However, JWT tokens can be vulnerable to replay attacks and need to be stored in the browser, which can be a security risk.
+OAuth2:
+
+OAuth2 is an open standard for authorization, it is not an authentication protocol. It allows a client application to access resources on a server on behalf of a user.
+OAuth2 is based on the concept of tokens, which are issued by the server and passed to the client. Tokens can have a limited lifespan, and can be revoked by the server at any time.
+OAuth2 is typically used to access resources on behalf of a user, rather than for authentication per se. It is often used in conjunction with other authentication mechanisms.
+OAuth2 is more secure than JWT, it uses an access token and a refresh token, the access token is short-lived and the refresh token is long-lived. This way, even if the access token is compromised, it will only give access for a short period of time.
+OAuth2 is also more flexible, it can be used with different flows like the authorization code flow, implicit flow, and client credentials flow, which can be used in different scenarios.
+In summary, both JWT and OAuth2 can be used for authentication in a Chrome browser extension that uses a Rails API as the backend. JWT approach is stateless, self-contained, and easy to use, while OAuth2 is more secure, flexible and not just limited to authentication but also authorization. The choice between them would depend on your specific requirements and the level of security you are looking for.
+
+Does the user have to provide their email or password in JWT or OAuth2 approach to integrating with the backend?
+
+In the JWT approach, the user does have to provide their email and password to the chrome extension.
+
+The chrome extension sends a request to the Rails API with the user's email and password, the Rails API verifies the credentials and if they are valid, the Rails API creates a JSON Web Token (JWT) and sends it back to the chrome extension. The chrome extension can then store the JWT in the browser's local storage, and include it in the headers of subsequent requests to the Rails API to authenticate the user.
+
+In the OAuth2 approach, the user does not have to provide their email and password to the chrome extension directly. Instead, the user is redirected to the authorization server (in this case the Rails API) to log in. The user logs in using their email and password and grants the chrome extension permission to access their resources.
+
+The authorization server then sends an access token to the chrome extension, which can then use it to access the user's resources on the Rails API. The chrome extension does not have access to the user's email and password, and does not need to store them. The access token is short-lived and it can be refreshed using the refresh token which is long-lived, thus providing a better security.
+
+In summary, in the JWT approach, the user has to provide their email and password to the chrome extension, while in the OAuth2 approach, the user logs in on the authorization server and grants permission to the chrome extension to access their resources without providing their email and password directly.
+
+What Chrome browser extensions are needed in the market to meet unmet needs of the users?
+
+The needs of users are constantly changing, and new Chrome browser extensions are being developed to meet those needs. Some examples of unmet needs that new extensions may be developed to address include:
+
+Privacy and security: With increasing concerns about online privacy and security, extensions that can help users protect their personal information and online activities may be in demand. Examples include extensions that can block tracking scripts, encrypt communications, or warn users about phishing attempts.
+
+Productivity: As people are increasingly working from home, there may be a growing need for extensions that can help users stay organized and productive. Examples include extensions that can block distractions, manage time, or automate repetitive tasks.
+
+Accessibility: As the population ages, there may be an increasing need for extensions that can help users with disabilities access the web. Examples include extensions that can read web pages aloud, provide text-to-speech, or increase the contrast of web pages.
+
+Personalization: As the web becomes more personalized, there may be a growing need for extensions that can help users customize their browsing experience. Examples include extensions that can change the appearance of web pages, provide personalized news, or recommend content based on the user's interests.
+
+Mental Health and Wellness: With the rise of remote work, there may be an increasing need for extensions that can help users manage stress, anxiety, and other mental health concerns. Examples include extensions that can provide mindfulness exercises, mental health resources or support groups, or help users disconnect from work.
+
+It's worth mentioning that, the above are just examples, the needs of users are constantly evolving, and new unmet needs may arise in the future. Developers who are able to identify and address these needs through their extensions will have the opportunity to create successful and widely used products.
+
+
 

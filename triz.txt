@@ -1,6 +1,8 @@
 What is TRIZ?
 
-TRIZ (an acronym for the Russian phrase "Teoriya Resheniya Izobreatatelskikh Zadatch," which translates to "Theory of Inventive Problem Solving") is a problem-solving methodology used in engineering and innovation. It is based on the analysis of patterns of invention in various fields and aims to help engineers and inventors come up with new and innovative solutions to problems. TRIZ is based on a number of principles and tools, including the Ideality principle (the idea that the best solution is one that maximizes the benefits while minimizing the drawbacks), the Contradiction Matrix (a tool that helps identify and resolve contradictions in a problem), and the 39 inventive principles (a set of principles that can be used to guide the problem-solving process). TRIZ is used in a variety of industries, including engineering, manufacturing, and product design.
+TRIZ (an acronym for the Russian phrase "Teoriya Resheniya Izobreatatelskikh Zadatch," which translates to "Theory of Inventive Problem Solving") is a problem-solving methodology used in engineering and innovation. It is based on the analysis of patterns of invention in various fields and aims to help engineers and inventors come up with new and innovative solutions to problems. 
+
+TRIZ is based on a number of principles and tools, including the Ideality principle (the idea that the best solution is one that maximizes the benefits while minimizing the drawbacks), the Contradiction Matrix (a tool that helps identify and resolve contradictions in a problem), and the 39 inventive principles (a set of principles that can be used to guide the problem-solving process). TRIZ is used in a variety of industries, including engineering, manufacturing, and product design.
 
 Can we apply all the 40 inventive TRIZ principles to software development problems?
 

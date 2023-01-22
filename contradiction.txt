@@ -1,0 +1,60 @@
+Is it possible to have physical contradiction in software?
+
+In TRIZ, a physical contradiction is a situation in which two or more conflicting characteristics are required of a system, but it is not possible for all of them to be simultaneously satisfied. The concept of physical contradiction is often used in the context of engineering and physical systems, where it is relatively easy to identify and understand the conflicting characteristics.
+
+In software development, it is less common to think in terms of physical contradictions, but it is possible to have conflicts between different requirements or constraints that cannot be simultaneously satisfied. For example, a software system may have a requirement for high performance, but also a requirement for low power consumption. These are two conflicting characteristics that cannot be simultaneously satisfied.
+
+In these cases, TRIZ can still be applied to identify and resolve the conflicts. The key is to identify the conflicting characteristics and then use the tools and methods of TRIZ to find creative solutions that overcome or eliminate the conflict. For example, by using a different algorithm or data structure that is more efficient, it may be possible to improve performance while still reducing power consumption.
+
+It is worth noting that in software development, the concept of contradiction may also be extended to other types such as functional, dynamic, and geometric.
+
+What is the general form of a physical contradiction?
+
+In TRIZ, a physical contradiction is a situation in which two or more conflicting characteristics are required of a system, but it is not possible for all of them to be simultaneously satisfied. The general form of a physical contradiction is represented by the following equation:
+
+P1(x1) ≠ P2(x2)
+
+Where:
+
+P1 and P2 are two conflicting characteristics or properties of the system.
+x1 and x2 are the corresponding values or levels of the characteristics.
+The inequality sign ≠ indicates that it is not possible for P1 and P2 to have the same value or level.
+For example, if a system requires high strength and low weight, but it is not possible to increase one without decreasing the other, this would be a physical contradiction.
+
+P1 = strength
+P2 = weight
+x1 = high
+x2 = low
+
+This equation can be used to represent any physical contradiction, as long as the conflicting characteristics and their values are defined. Once the physical contradiction is identified, TRIZ can be used to find a solution that overcomes or eliminates the conflict.
+
+What is the difference between technical contradiction and physical contradiction?
+
+In TRIZ, a technical contradiction is a situation in which two or more conflicting technical requirements or constraints are present in a system, but it is not possible to simultaneously satisfy all of them. A physical contradiction, on the other hand, is a situation in which two or more conflicting physical characteristics or properties of a system are present, but it is not possible to simultaneously satisfy all of them.
+
+The main difference between the two is that technical contradictions relate to technical requirements or constraints, while physical contradictions relate to physical characteristics or properties of a system.
+
+For example, a technical contradiction may occur in a software system when there is a requirement for high performance but also a requirement for low power consumption. These are two conflicting technical requirements that cannot be simultaneously satisfied.
+
+A physical contradiction may occur in a product design when there is a requirement for high strength but also a requirement for low weight. These are two conflicting physical characteristics that cannot be simultaneously satisfied.
+
+Both technical and physical contradictions can be resolved using the tools and methods of TRIZ. However, the process of identifying and resolving the contradictions may be slightly different, depending on whether the contradiction is technical or physical.
+
+Physical Contradiction in Software
+ The web app began with a simple UI with no buttons on the home page. After a few years, it had lot of buttons, similar to how Microsoft Word looks like. Not so good! How to design a product that is having the buttons and at the same time not having any buttons but provides all the features we need? Can we remove all the buttons to make the design simple and at the same time provide business value?
+
+The general form of physical contradiction looks like:
+
+X must have A and X must have -A
+
+The thing X must have some property and the opposite property. We can break this contradiction by asking:
+
+1. Do we need both A and -A at the same time?
+
+2. Do we need both A and -A in the same space?
+
+In the web app design case, we can choose the time as a way to separate the opposing properties. We can apply the Separation in Time principle to resolve this physical contradiction.
+
+The design must be modified by removing all the buttons or as many buttons as possible on the home page. The button should appear only when the context is right during the use of the product. One of the reasons why the product became messy page with many buttons is that the app was very CRUD based.
+
+It lacked clear messaging to the users when using the product and did not provide any next action to take during the workflow. By making the messages actionable, we can include the links that provides them a clear action to take to complete their task.

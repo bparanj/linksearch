@@ -322,4 +322,21 @@ In terms of reliability, minimizing non-functional requirements means increasing
 
 By minimizing non-functional requirements, it aims to achieve the highest level of performance, with the least amount of resources, while achieving the highest level of reliability and maintainability, which is the main goal of ideality principle in TRIZ.
 
-Can we apply all the 40 inventive TRIZ principles to software development problems?
+How to separate a system into independent parts?
+
+There are several ways to separate a system into independent parts, depending on the specific context and goals of the project. Here are a few methods that can be used:
+
+Functionality: One way to separate a system into independent parts is by functionality, by breaking the system down into modules based on their functionality, such as user interface, business logic, and data access. This allows for separation of concerns and makes it easier to understand and manage the code.
+
+Data: Another way to separate a system into independent parts is by data, by breaking the system down into modules based on the data they manipulate, such as separating components that handle user data, inventory data, or financial data.
+
+Concerns: Another way to separate a system into independent parts is by concerns, by breaking the system down into modules based on the concerns they address, such as separating components that handle user authentication, error handling, or logging.
+
+Dependencies: Another way to separate a system into independent parts is by dependencies, by breaking the system down into modules based on their dependencies, such as separating components that have few or no dependencies from those that have many.
+
+Microservices: Another way to separate a system into independent parts is by using microservices architecture, where the system is broken down into small, loosely coupled services that can be developed and deployed independently.
+
+Abstraction: Another way to separate a system into independent parts is by using abstraction, by creating interfaces or abstract classes that define the high-level functionality of the system, without specifying the details of how it is implemented.
+
+These methods can be used in combination, depending on the specific goals and context of the project, but they all aim to separate the system into smaller, independent parts that can be developed, tested, and maintained separately, which is the main idea behind segmentation principle in software development.
+
