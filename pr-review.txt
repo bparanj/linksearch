@@ -1,0 +1,22 @@
+Are there any automated tools to do a PR review of React JS project?
+
+Yes, there are several automated tools that can be used to perform a review of a Pull Request (PR) for a React JS project. Some popular options include:
+
+ESLint: a widely-used JavaScript linter that can be configured to enforce specific coding conventions and best practices for React projects
+Prettier: a code formatter that can automatically format code to match a specific style guide
+Stylelint: a linter for CSS and SCSS, which can be used to enforce style conventions in a React project
+Lighthouse: an automated tool for auditing the performance and accessibility of web pages
+Jest: a popular JavaScript testing framework that can be used to create unit tests for a React project
+These tools can be integrated into a continuous integration (CI) pipeline, so that they automatically run when a PR is submitted, and provide feedback on any issues that are identified.
+
+There are also several automated tools that can be used to perform a review of a Pull Request (PR) for a Ruby on Rails project. Some popular options include:
+
+Rubocop: a widely-used Ruby linter that can be configured to enforce specific coding conventions and best practices
+SimpleCov: a code coverage tool that can be used to measure how much of the project's code is being tested
+Brakeman: a security scanner that can be used to identify potential vulnerabilities in a Rails application
+RSpec: a popular testing framework for Ruby and Rails that can be used to create unit tests for a Rails project
+Rails Best Practices: a code analyzer for Ruby on Rails that checks for code smells and potential bugs.
+These tools can be integrated into a continuous integration (CI) pipeline, so that they automatically run when a PR is submitted, and provide feedback on any issues that are identified.
+
+Moreover, you can use many other tools like Overcommit, HoundCI, etc which can be used to improve code quality in your Rails project.
+
