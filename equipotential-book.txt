@@ -1,0 +1,29 @@
+This is a general outline, and the specific details, sections and chapters will depend on the author and the specific goals of the book.
+
+Introduction:
+
+Introduce the concept of equipotentiality and its importance in software development
+Briefly explain the TRIZ methodology and how equipotentiality is related to it.
+Explain the connection between equipotentiality and non-linearity, and leverage.
+Chapter 1: Understanding Equipotentiality
+
+Define equipotentiality and explain its importance in software development.
+Explain the different attributes of equipotentiality and how they can be applied to software products
+Provide examples of software products that have applied the concept of equipotentiality
+Describe the benefits of applying equipotentiality to software products
+Chapter 2: Identifying situations to apply equipotentiality
+
+Describe how to identify situations when equipotentiality should be applied
+Explain the concept of contradiction in TRIZ and how it relates to equipotentiality
+Describe how equipotentiality can be used to break the scalability vs speed of software development contradiction
+Chapter 3: Applying equipotentiality in software development
+
+Explain the different heuristics that can be used to apply equipotentiality in software development
+Describe how to map the concept of equipotentiality to software attributes
+Explain the concept of non-linearity and its relation to equipotentiality and leverage
+Provide examples of systems that use non-linearity
+Describe how to identify non-linearity that improves the efficiency in a system
+Conclusion:
+
+Summarize the main points discussed in the book
+Reinforce the importance of equipotential
