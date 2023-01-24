@@ -452,6 +452,19 @@ VI. References
 A list of references and resources for further reading on the topic
 This is a general outline for the book, it can be modified and expanded as per your requirements. The book will give an insight into the importance of segmentation in software development, how to apply it, the benefits, and how it differs from modularization. It will also give examples of situations where it can be applied and provide some tips to be more successful on the process.
 
+Why is segmentation considered as a discontinuous evolution pattern?
+
+Segmentation is considered a discontinuous evolution pattern because it involves breaking down a system into smaller, independent parts, which is a fundamentally different way of organizing the system than the initial, more complex and integrated system.
+
+When a system is segmented, the different parts of the system are separated from one another and can function independently, which allows for separate development, testing, and maintenance of each part. This can lead to a significant change in the way the system works and in the way it is designed.
+
+Additionally, when a system is segmented, it allows for more flexibility in the system, as each part can be modified, replaced, or scaled independently. This can lead to more efficient and effective solutions, as it allows to focus on specific parts of the system and optimize them individually.
+
+In contrast, continuous evolution patterns involve gradual changes to a system that do not fundamentally alter its structure or organization. For example, improving performance or reliability of a system by making small modifications to its components or adding new components.
+
+Therefore, segmentation is considered as a discontinuous evolution pattern because it is a fundamental change in the organization and structure of the system, and it allows for more flexibility and optimization opportunities.
+
+
 
 
 
