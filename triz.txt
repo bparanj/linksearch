@@ -1193,7 +1193,7 @@ It is often located on the front or top of the machine, and can be identified by
 
 Note that different machines or systems may have different designs and configurations, so the location and characteristics of these components may vary.
 
- identify control, engine, transmission, tool and interface in a mobile phone
+Identify control, engine, transmission, tool and interface in a mobile phone
 
 In a mobile phone, the control, engine, transmission, tool, and interface can be identified as follows:
 
@@ -1684,6 +1684,453 @@ UNIX command line utilities can be considered as an example of heterogeneous mon
 It's worth noting that the UNIX command line utilities are not homogeneous mono-systems as they have multiple components or sub-systems that perform different functions, and they can be used together in a pipeline, which means they are not completely independent.
 
 In summary, UNIX command line utilities can be considered an example of heterogeneous mono-system, as they are made up of multiple different tools, each one of them performs a specific task, but they all work together as a single unit to perform a cohesive task which is to provide a set of tools for managing and manipulating files and data on a UNIX-based system.
+
+Summarize the book Insourcing Innovation - How to Achieve Competitive Excellence Using TRIZ
+
+"Insourcing Innovation: How to Achieve Competitive Excellence Using TRIZ" is a book that aims to teach organizations how to use the TRIZ methodology to drive innovation and achieve competitive excellence. The book covers the basics of TRIZ and its key principles, such as ideality, contradiction resolution, and the evolution of systems. It also provides practical examples and case studies of how organizations have successfully used TRIZ to solve problems and improve their products and processes.
+
+The book explains how organizations can use TRIZ to identify and overcome technical and physical contradictions, which can lead to the creation of new and improved products and processes. It also explains how to use the methodology to identify and leverage existing resources and to think creatively about problems and solutions.
+
+The book emphasizes that insourcing innovation is not only about developing new products, but also about improving existing products and processes, and creating new business models. It also stresses the importance of involving employees in the innovation process and creating a culture of innovation within the organization.
+
+In summary, "Insourcing Innovation: How to Achieve Competitive Excellence Using TRIZ" is a book that teaches organizations how to use the TRIZ methodology to drive innovation and achieve competitive excellence by providing practical examples and case studies of how organizations have successfully used TRIZ to solve problems and improve their products and processes. The book also stresses the importance of involving employees in the innovation process and creating a culture of innovation within the organization.
+
+Explain objective law
+
+Objective law refers to the set of natural physical laws and principles that govern how the world works. These laws apply to all systems, regardless of their specific characteristics or purpose. They include laws of physics, chemistry, biology, and other natural sciences. These laws dictate how energy is transferred, how materials behave under different conditions, and how systems interact with each other.
+
+In the context of TRIZ, objective laws are important because they can be used to understand and predict the behavior of a system and to identify potential areas for improvement. By understanding the objective laws that govern a system, it is possible to identify patterns and trends that can be used to guide problem-solving and innovation.
+
+For example, objective laws of physics can be used to understand how a mechanical system works and to identify ways to improve its efficiency. Objective laws of chemistry can be used to understand how different materials behave and to identify new materials that could be used to improve a system.
+
+In summary, objective law refers to the set of natural physical laws and principles that govern how the world works, these laws apply to all systems regardless of their specific characteristics or purpose, and they dictate how energy is transferred, how materials behave under different conditions, and how systems interact with each other. In the context of TRIZ, objective laws are important because they can be used to understand and predict the behavior of a system and to identify potential areas for improvement.
+
+Give an example for natural physical law
+
+One example of a natural physical law is the law of conservation of energy, which states that energy cannot be created or destroyed, but it can be converted from one form to another. This law applies to all systems, including mechanical, electrical, and chemical systems.
+
+For example, in a mechanical system, energy can be converted from the potential energy stored in a spring to the kinetic energy of a moving object. In an electrical system, energy can be converted from chemical energy stored in a battery to electrical energy used to power a device. In a chemical system, energy can be converted from the chemical energy stored in a fuel to the thermal energy released during combustion.
+
+Another example of a natural physical law is the law of thermodynamics which states that the total entropy of a closed system always increases over time. This law applies to all systems, including mechanical, electrical, and chemical systems, and it has important implications for the design and optimization of energy systems, as well as many other technologies.
+
+In summary, natural physical laws are fundamental principles that govern how the world works, they apply to all systems regardless of their specific characteristics or purpose, and they dictate how energy is transferred, how materials behave under different conditions, and how systems interact with each other. Two examples of natural physical laws are the law of conservation of energy and the law of thermodynamics, the first one states that energy cannot be created or destroyed, but it can be converted from one form to another, and the second one states that the total entropy of a closed system always increases over time.
+
+Give an example for natural physical principle
+
+A natural physical principle is a general rule or guideline that describes how a system behaves or how certain effects are produced. It is a fundamental understanding of how nature works.
+
+One example of a natural physical principle is the principle of leverage. This principle describes how a small force applied to a long lever can produce a much larger force at the other end. This principle is used in many mechanical systems, such as levers, pulleys, and gears. By understanding this principle, engineers can design systems that use small forces to produce large effects, such as in cranes and other lifting equipment.
+
+Another example of a natural physical principle is the principle of buoyancy, which states that an object will float in a fluid if the weight of the fluid it displaces is equal to or greater than the weight of the object. This principle is used in many systems, such as boats, ships, and submarines. By understanding this principle, engineers can design systems that can float or submerge in water or other fluids.
+
+In summary, natural physical principles are general rules or guidelines that describe how a system behaves or how certain effects are produced, they are fundamental understandings of how nature works. Two examples of natural physical principles are the principle of leverage, which describes how a small force applied to a long lever can produce a much larger force at the other end, and the principle of buoyancy, which states that an object will float in a fluid if the weight of the fluid it displaces is equal to or greater than the weight of the object.
+
+What is the difference between natural physical law and natural physical principle?
+
+A natural physical law is a fundamental and universal rule that governs how the world works, and it is based on experimental observations and can be expressed mathematically. These laws are considered to be true and unchanging, and they are independent of the specific characteristics of the system they apply to. Examples of natural physical laws include the law of conservation of energy, the law of thermodynamics, and Newton's laws of motion.
+
+On the other hand, natural physical principle is a general rule or guideline that describes how a system behaves or how certain effects are produced, it is a fundamental understanding of how nature works. These principles are based on the fundamental laws and they are not necessarily true in all cases and are dependent on the specific characteristics of the system they apply to. Examples of natural physical principles include the principle of leverage, the principle of buoyancy, and the principle of superposition.
+
+In summary, natural physical laws are fundamental and universal rules that govern how the world works and are considered to be true and unchanging, and based on experimental observations and can be expressed mathematically. While natural physical principles are general rules or guidelines that describe how a system behaves or how certain effects are produced, they are based on the fundamental laws and are not necessarily true in all cases, and are dependent on the specific characteristics of the system they apply to.
+
+Can we say that natural physical principle is not based on experimental observations and cannot be expressed mathematically?
+
+I apologize for any confusion, natural physical principles can be based on experimental observations and can also be expressed mathematically. They are based on the fundamental laws and are not necessarily true in all cases, but they can be derived and explained through mathematical modeling and experiments. The principles are a generalization of the laws and can be applied to specific systems or situations. The main difference between natural physical laws and principles is that natural physical laws are fundamental and universal rules that govern how the world works and are considered to be true and unchanging, while natural physical principles are general rules or guidelines that describe how a system behaves or how certain effects are produced and are dependent on the specific characteristics of the system they apply to.
+
+Explain fundamental principle
+
+A fundamental principle is a basic, underlying rule or concept that is fundamental to the understanding and operation of a particular field or system. Fundamental principles are the basic building blocks upon which more complex concepts and theories are built. They are considered to be the foundation of a particular field of study or technology.
+
+For example, in physics, some fundamental principles include the laws of conservation of energy and momentum, the laws of thermodynamics, and the laws of electromagnetism. These principles are the foundation upon which more complex theories and models are built, such as quantum mechanics and special relativity.
+
+In software engineering, fundamental principles include the principles of modularity, abstraction, and encapsulation, which are the foundation upon which more complex software systems are built.
+
+In TRIZ, some of the fundamental principles are:
+
+Separation of the system and its environment
+Identification of the system's functions
+Evolution of systems with time
+Evolution of systems in space and scale
+Evolution of systems in complexity
+Evolution of systems with multiple solutions
+
+In summary, fundamental principles are basic, underlying rules or concepts that are fundamental to the understanding and operation of a particular field or system, they are considered to be the foundation of a particular field of study or technology, and they are the basic building blocks upon which more complex concepts and theories are built.
+
+Create a list of TRIZ terminology
+
+Technical Contradiction
+Physical Contradiction
+Idempotent
+Inventive Principles
+Ideal Final Result
+Ideal System
+Resource
+Function
+Evolution
+Technical Evolution Trends
+Contradiction Matrix
+Resources Mapping
+Function Mapping
+Evolutionary Table
+Evolutionary Step
+Evolutionary Platform
+Evolutionary Condition
+Evolutionary Stage
+Evolutionary Development
+Evolutionary Model
+Evolutionary Prognosis
+Evolutionary Forecast
+Evolutionary Prognosis of a Product
+Evolutionary Prognosis of a Technology
+Evolutionary Prognosis of a Market
+Evolutionary Prognosis of a Society
+Evolutionary Prognosis of a Company
+Evolutionary Prognosis of an Industry
+Evolutionary Prognosis of a Country
+Evolutionary Prognosis of the World
+Technical system
+Technical function
+Technical contradiction
+Technical evolution
+Technical evolution trend
+Technical resource
+Technical evolution matrix
+Technical evolution forecast
+Technical evolution map
+Technical evolution model
+Physical contradiction
+Physical effect
+Physical contradiction matrix
+Physical contradiction resolution
+Physical contradiction map
+Inventive principle
+Inventive situation
+Inventive problem
+Inventive solution
+Inventive
+
+CRASHED
+
+Technical system
+Physical contradiction
+Technical contradiction
+Technical evolution
+Resourceful thinking
+Inventive principles
+Trends of technical evolution
+Problem statement
+Ideal final result
+Ideal machine
+Resource
+Constraints
+Anomaly
+Similarity and Anomaly
+Satisficing
+Normal curve mean and extremes
+Incremental and step-change
+Waste
+Break logic
+Linear and non-linear processes
+Variation
+Stability
+Unique problem
+"Yes, but..."
+Function mapping
+Emergence
+Autopoietic optimum
+Feedback
+Adaptive feedback
+Feed forward
+Self-adaptive autonomous system
+Similarity mapping
+Morphological analysis
+Decreased human involvement
+Increased dynamism and controllability
+Increased complexity and simplification
+Matching and mismatching elements
+Micro level and increased use of fields
+Homogeneous mono-system
+Heterogeneous bi-system
+Heterogeneous poly-system
+Heterogeneous mono-system
+Objective law
+Natural physical law and principle
+Extreme thinking with size, time, cost
+Non uniform development of system elements
+Evolution toward increased dynamism and controllability
+Evolution with matching and mismatching elements
+Evolution toward micro level and increased use of fields
+Homogeneous mono-system and heterogeneous mono-system
+
+Note: This list is not exhaustive and there are other terms that are used in the context of TRIZ, depending on the specific use case or application. This list is intended as a general introduction to some of the key terms used in the field of TRIZ.
+
+Create a list of terminology used in segmentation principle
+
+Segmentation
+Time slicing
+Functional segmentation
+Physical segmentation
+Spatial segmentation
+Logical segmentation
+Sequential segmentation
+Structural segmentation
+Hierarchical segmentation
+Modularization
+Decomposition
+Division of a system into sub-systems
+Partitioning
+Subdividing
+Breaking down a system into smaller parts
+Segmenting a system into manageable components
+Creating modular structure
+Isolating components
+Segmenting a system by function or purpose
+Segmenting a system by physical characteristics
+Segmenting a system by location or spatial characteristics
+Segmenting a system by logical relationships
+Segmenting a system by the sequence of operations
+Segmenting a system by structural relationships
+Segmenting a system into hierarchical levels.
+
+Yes, there are more terms that can be used in the context of the segmentation principle. Some other terms include:
+
+Granularity: Refers to the level of detail or the degree of coarseness of the segmentation.
+
+Multi-level segmentation: Refers to the process of dividing a system into multiple levels or layers of sub-systems
+
+Adaptive segmentation: Refers to the ability of a system to adjust its segmentation in response to changing conditions or requirements.
+
+Dynamic segmentation: Refers to the ability of a system to change its segmentation over time.
+
+Functional decomposition: The process of breaking down a system into its constituent functions and sub-functions.
+
+Virtual segmentation: Refers to the division of a system into virtual components or sub-systems that exist only in software.
+
+Segmentation criteria: The criteria used to determine how a system should be segmented, such as by function, physical characteristics, or location.
+
+These terms are not exclusive to TRIZ but they are used in the context of the principle of segmentation which is one of the 40 inventive principles of TRIZ
+
+Explain synthesis
+
+The combination of ideas form a theory or system. It is about making connections or putting things together. Synonyms: Blend, Integrate.
+
+Explain mini-problem
+
+A problem formulated according to the rule: “The system remains unchanged or even simplifies, but the harmful effect disappears, or a useful effect is obtained.”
+
+When solving a mini-problem, the physical principle of the system’s functioning is not changed.
+
+Explain small miniature man
+
+In TRIZ, the concept of a small miniature man (or a "miniature man") is a mental visualization tool used to help identify the underlying physical, chemical, and biological principles that govern a system or product. The small miniature man is a representation of a person who is small enough to fit inside the system or product, and can be used to visualize the different forces and interactions that take place within the system.
+
+The small miniature man can be used to:
+
+Identify the physical, chemical, and biological principles that govern the system or product.
+
+Understand the interactions and relationships between the different parts and components of the system or product.
+
+Identify the root causes of technical contradictions and challenges within the system or product.
+
+Generate new and innovative solutions to the challenges and contradictions identified.
+
+Identify potential safety hazards and evaluate the safety of the system or product.
+
+By visualizing the small miniature man within the system or product, it becomes easier to understand the underlying physical, chemical, and biological principles that govern the system and to identify the root causes of technical contradictions, and to generate new and innovative solutions using the 40 inventive principles and Su-Field analysis.
+
+It's worth noting that the small miniature man is only a mental visualization tool and the idea is to use it to understand the system and not to scale down the system to a point where it's not practical anymore.
+
+Give examples for pattern of dynamization
+
+
+In TRIZ, the pattern of dynamization refers to the process of converting a static system into a dynamic one in order to improve its performance, efficiency, and functionality. This can be done by introducing movement, vibration, or other forms of dynamic energy into the system. Here are a few examples of how the pattern of dynamization can be applied in different fields:
+
+Manufacturing: A static manufacturing process can be improved by introducing robotic arms or conveyor belts to automate the movement of materials and components.
+
+Transportation: A static transportation system can be improved by introducing wheels, tracks, or other forms of propulsion to make the vehicles move.
+
+Energy production: A static energy production system can be improved by introducing wind turbines or hydroelectric generators to harness the power of moving water or wind.
+
+Construction: A static building can be improved by introducing a dynamic façade that adjusts to the sun and wind to increase energy efficiency.
+
+Medical treatment: A static medical treatment can be improved by introducing a dynamic component such as a robotic arm to perform a surgery.
+
+Power tools: A static power tool can be improved by introducing a dynamic component such as a vibration to increase its efficiency and performance.
+
+Food Industry: A static food production can be improved by introducing a dynamic component such as a blender to mix the ingredients and make the process more efficient.
+
+These are just a few examples of how the pattern of dynamization can be applied, the key idea is to introduce movement, vibration, or other forms of dynamic energy into the system in order to improve its performance, efficiency, and functionality.
+
+
+Give examples for pattern of multiplication
+
+In TRIZ, the pattern of multiplication refers to the process of increasing the number of identical or similar components in a system in order to improve its performance, efficiency, and functionality. This can be done by adding more of the same component or by using multiple identical components in parallel. Here are a few examples of how the pattern of multiplication can be applied in different fields:
+
+Manufacturing: A single machine can be replaced by multiple identical machines operating in parallel, in order to increase production rate and reduce downtime.
+
+Transportation: A single engine can be replaced by multiple engines operating in parallel, in order to increase the power and efficiency of the vehicle.
+
+Energy production: A single solar panel can be replaced by multiple solar panels operating in parallel, in order to increase the power generation and efficiency of the system.
+
+Construction: A single elevator can be replaced by multiple elevators operating in parallel, in order to increase the capacity and reduce waiting times.
+
+Medical treatment: A single medical instrument can be replaced by multiple identical instruments operating in parallel, in order to increase the speed and efficiency of the treatment.
+
+Power tools: A single cutting blade can be replaced by multiple cutting blades operating in parallel, in order to increase the efficiency and performance of the tool.
+
+Food Industry: A single mold can be replaced by multiple identical molds operating in parallel, in order to increase the production rate and reduce downtime.
+
+These are just a few examples of how the pattern of multiplication can be applied, the key idea is to increase the number of identical or similar components in a system in order to improve its performance, efficiency, and functionality.
+
+Give examples for pattern of transition to micro level
+
+In TRIZ, the pattern of transition to micro level refers to the process of reducing the size of a system or component in order to improve its performance, efficiency, and functionality. This can be done by reducing the size of the entire system, or by reducing the size of specific components or sub-systems. Here are a few examples of how the pattern of transition to micro level can be applied in different fields:
+
+Manufacturing: Large machines can be replaced by smaller, micro-sized machines in order to increase the precision and accuracy of the manufacturing process.
+
+Transportation: Large vehicles can be replaced by smaller, micro-sized vehicles in order to increase their efficiency and maneuverability.
+
+Energy production: Large wind turbines can be replaced by smaller, micro-sized wind turbines in order to increase their efficiency and reduce their environmental impact.
+
+Construction: Large buildings can be replaced by smaller, micro-sized buildings in order to increase their energy efficiency and reduce their environmental impact.
+
+Medical treatment: Large surgical instruments can be replaced by smaller, micro-sized instruments in order to increase the precision and accuracy of the treatment.
+
+Power tools: Large cutting blades can be replaced by smaller, micro-sized blades in order to increase the precision and accuracy of the tool.
+
+Computer Industry: Large computer servers can be replaced by smaller, micro-sized servers in order to increase their efficiency and reduce the energy consumption.
+
+These are just a few examples of how the pattern of transition to micro level can be applied, the key idea is to reduce the size of a system or component in order to improve its performance, efficiency, and functionality.
+
+How to create a graphical model of a problem?
+
+Creating a graphical model of a problem can help to visualize the different components, interactions, and relationships within a system or problem, and can facilitate the identification of the root causes and underlying technical contradictions. Here are some steps that can be used to create a graphical model of a problem:
+
+Define the problem: Clearly define the problem or challenge that needs to be solved.
+
+Identify the components: Identify the different components, parts, or subsystems of the system or problem.
+
+Analyze the interactions: Analyze the interactions and relationships between the different components, parts, or subsystems of the system or problem.
+
+Identify the objectives: Identify the objectives, requirements, and constraints of the system or problem.
+
+Identify the technical contradictions: Identify the technical contradictions within the system or problem using the Contradiction Matrix and the 40 inventive principles.
+
+Draw the diagram: Draw a diagram of the system or problem, using different shapes and symbols to represent the different components, interactions, and relationships.
+
+Labels the components: Label the different components, parts, or subsystems of the system or problem, and indicate the direction of the interactions and relationships between them.
+
+Identify the root causes: Identify the root causes of the technical contradictions and challenges within the system or problem.
+
+Identify the Su-Fields: Use Su-Field analysis to identify the underlying physical, chemical, and biological principles that govern the system or problem.
+
+Review and refine the diagram: Review and refine the diagram, making sure that it accurately represents the different components, interactions, and relationships within the system or problem.
+
+Creating a graphical model of a problem can help to understand the system and facilitate the identification of blah blah blah
+
+Why is it called technical contradiction?
+
+In TRIZ, a technical contradiction is a situation where two or more objectives or requirements of a system or product are in conflict with each other. These objectives or requirements can be related to functionality, performance, cost, safety, or other aspects of the system or product. These contradictions can arise due to the complexity and interdependence of the different components and subsystems of the system or product.
+
+For example, a technical contradiction can arise when a product needs to be lightweight and strong at the same time. The requirement of being lightweight and strong is in conflict with each other. Also, a product that needs to be cheap and of high quality is another example of technical contradiction.
+
+The concept of technical contradiction is central to the problem-solving process in TRIZ, as it is used to identify the root causes of problems and challenges within a system or product. By identifying and analyzing the technical contradictions within a system or product, it becomes possible to generate new and innovative solutions that eliminate the contradictions, and to improve the performance, efficiency, and functionality of the system or product.
+
+That's why it's called "technical contradiction", as it refers to the conflicts between technical aspects of a system or product, and it is a fundamental concept to solve problems in an effective way.
+
+What are the different ways to make a system more ideal?
+
+In TRIZ, an ideal system is one that meets all of its objectives and requirements while minimizing negative effects and maximizing positive effects. There are several ways to make a system more ideal, and these include:
+
+Functionality: Improving the functionality of the system by adding new features, capabilities, or performance characteristics.
+
+Performance: Improving the performance of the system by increasing efficiency, productivity, or speed.
+
+Safety: Improving the safety of the system by reducing the risk of accidents, injuries, or damage.
+
+Cost: Reducing the cost of the system by using cheaper materials, simpler designs, or more efficient manufacturing processes.
+
+Durability: Increasing the durability of the system by using stronger or more resistant materials, or by designing the system to better withstand wear and tear.
+
+Environment: Improving the environmental impact of the system by reducing emissions, waste, or pollution.
+
+Maintainability: Improving the maintainability of the system by designing it to be more easily serviced or repaired.
+
+Ergonomics: Improving the ergonomics of the system by making it more comfortable or convenient for users to operate or interact with.
+
+Reliability: Improving the reliability of the system by reducing the likelihood of failure or downtime.
+
+Adaptability: Improving the adaptability of the system by allowing it to be easily modified or customized to meet changing needs.
+
+Simplifying the system: Reducing the number of parts, subsystems and simplifying the system structure.
+
+Using the 40 inventive principles: Using the 40 inventive principles to identify and eliminate technical contradictions and to generate new and innovative solutions.
+
+Su-Field analysis: Using Su-Field analysis to identify the underlying physical, chemical, and biological principles that govern the system or problem, and to generate new solutions that are based on these principles.
+
+These are some examples of ways to make a system more ideal. The most appropriate ways to improve an ideal system will depend on the specific system and the problem at hand.
+
+What are the different fields of science?
+
+There are many different fields of science, each with its own areas of study and methodologies. Some of the major fields of science include:
+
+Physics: The study of matter and energy, including mechanics, thermodynamics, electromagnetism, and quantum mechanics.
+
+Chemistry: The study of the composition, structure, properties, and reactions of matter.
+
+Biology: The study of living organisms, including genetics, evolution, ecology, and physiology.
+
+Earth Science: The study of the planet Earth, including geology, oceanography, meteorology and atmospheric science, and environmental science.
+
+Astronomy: The study of celestial bodies and the universe as a whole.
+
+Computer Science: The study of computation and its applications, including algorithms, data structures, artificial intelligence, and programming languages.
+
+Mathematics: The study of numbers, quantities, shapes, and patterns, including algebra, geometry, calculus, and statistics.
+
+Medicine: The study of the human body and disease, including anatomy, physiology, pharmacology and epidemiology.
+
+Social Sciences: The study of human behavior, society, and culture, including anthropology, economics, psychology, sociology, and political science.
+
+Engineering: The application of science, mathematics, and technology to design, build, and optimize systems, structures, and machines.
+
+Environmental Science: The study of the natural environment, including the physical, chemical, and biological processes that govern the Earth's systems and the impact of human activity on these systems.
+
+Forensic Science: The application of scientific methods and techniques in criminal investigations to collect, analyze, and interpret evidence.
+
+These are some examples of the different fields of science. There are many other specialized fields and subfields of science as well.
+
+What is a mechanism? Give an example.
+
+In the context of engineering and physics, a mechanism is a device or system that converts input energy or motion into a desired output motion. It is a combination of different parts that interact with each other to perform a specific function. Examples of mechanisms include:
+
+Lever: A simple mechanism that consists of a beam that pivots around a fixed point (fulcrum) and is used to lift heavy objects by applying a smaller force over a longer distance.
+
+Gear: A mechanism that consists of interlocking gears that transfer torque and rotation from one gear to another. It is used in many machines and devices, such as bicycles, automobiles, and machines.
+
+Pulley: A mechanism that consists of a wheel with a groove that runs around its circumference and is used to change the direction or magnitude of a force.
+
+Cam: A mechanism that consists of a rotating cylinder or disk with an irregular shape and is used to convert rotary motion into linear motion or vice versa.
+
+Screw and nut: A mechanism that consists of a spiral groove in the surface of a cylinder or cone and is used to convert rotary motion into linear motion or vice versa.
+
+Wheel and axel: A mechanism that consists of a wheel that rotates around an axle and is used to convert rotary motion into linear motion.
+
+Slider-crank mechanism: A mechanism that consists of a sliding piston and a rotating crank and is used to convert linear motion into rotary motion and vice versa.
+
+These are some examples of mechanisms, and they are widely used in various engineering fields such as mechanical, aerospace, civil, and manufacturing engineering. The design of a mechanism is an important consideration in many engineering projects, as it can greatly affect the performance, efficiency, and reliability of a system or device.
+
+What is the difference between trade and industry?
+
+Trade and industry are related but distinct concepts that refer to different aspects of economic activity.
+
+Trade refers to the buying and selling of goods and services between individuals, businesses, or countries. It includes activities such as import, export, wholesale, and retail sales. Trade can be domestic or international, and it can take place through various channels such as online platforms, brick-and-mortar stores, or trade fairs.
+
+Industry, on the other hand, refers to the production of goods and services. It includes all the activities involved in creating, manufacturing, and assembling products, including raw material extraction, production, and distribution. Industry can be classified into several sectors such as agriculture, mining, manufacturing, and service sectors. Industries can range from small, local operations to large, multinational corporations.
+
+In summary, trade is the activity of exchanging goods and services, while industry is the activity of producing goods and services. In some cases, both trade and industry can be involved in the same business, such as a manufacturing company that sells its products to other companies or to the public.
+
+
 
 How to make use of waste resources?
 It goes off track. Don't ask this question.

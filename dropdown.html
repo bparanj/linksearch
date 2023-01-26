@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Div Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>  
+</head>
+<body>
+
+  <div class="container mt-5">
+
+    <div x-data="durationDropdown">
+      <div class="w-80 flex pr-3">
+        <p class="w-1/2">Select duration:</p>
+        <div class="w-1/2 inline-block relative">
+          
+          <select name="duration_option" x-model="selectedOption" class="form-select">
+
+            <template x-for="option in options" :key="$id('option')">
+              <option :value="option" 
+                      :selected="option === selectedOption"
+                      x-text="option">
+                        
+              </option>
+            </template>
+
+          </select>
+        </div>
+      </div>
+
+      <hr/>
+                
+      <div class="input-group mb-3">
+        <input x-model="duration" class="form-control" minlength="1" placeholder="duration" />
+        <button type="submit" x-on:click="options.push(duration); duration=''" class="btn btn-primary">Add</button>
+      </div>
+
+    </div>
+
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.data('durationDropdown', () => ({
+      duration: '',
+      selectedOption: '15', 
+      options: ['10', '15', '20', '25'],
+      add() {
+        this.options.push(duration)
+      }
+    }))
+    
+    Alpine.store('darkMode', {
+        on: false,
+
+        toggle() {
+            this.on = ! this.on
+        }
+    })
+  })
+</script>
+    
+</body>
+</html>     
