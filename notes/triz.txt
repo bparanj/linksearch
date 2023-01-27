@@ -1920,6 +1920,148 @@ A problem formulated according to the rule: “The system remains unchanged or e
 
 When solving a mini-problem, the physical principle of the system’s functioning is not changed.
 
+Define creativity
+
+Creativity refers to the ability to generate new and original ideas, solutions, or ways of thinking. It can involve combining existing ideas or knowledge in new ways, or coming up with entirely new concepts or approaches. Creativity can be expressed in many forms, including art, music, writing, problem-solving, and innovation in various fields. It is often considered a crucial aspect of personal and professional success, and is highly valued in many industries and disciplines.
+
+Explain closed form
+
+A closed form is a mathematical expression or equation that can be evaluated to a specific value or set of values. It is a type of analytical solution and can be expressed as a finite combination of elementary functions. Closed forms can be expressed in a simple and compact form, and are often used in mathematical analysis, physics and engineering. Examples of closed forms include polynomial equations, trigonometric identities, and exponential functions.
+
+Show a few equations to illustrate the concept
+
+Closed-form equations, also known as explicit equations, are mathematical expressions that can be evaluated using a finite number of operations, and are usually represented by a finite number of terms. These equations can be written in terms of a finite number of variables, and the solutions can be found in a closed, finite form. Examples of closed-form equations include:
+
+Quadratic equation: ax^2 + bx + c = 0
+
+Cubic equation: ax^3 + bx^2 + cx + d = 0
+
+Exponential function: y = e^x
+
+Logarithmic function: y = log(x)
+
+Trigonometric functions: y = sin(x), y = cos(x), y = tan(x)
+
+Hyperbolic functions: y = sinh(x), y = cosh(x), y = tanh(x)
+
+Binomial theorem: (a+b)^n = a^n + n*a^(n-1)*b + C(n,2)*a^(n-2)*b^2 + ... + b^n
+
+These equations have a specific closed-form solution, which can be found using mathematical techniques such as algebraic manipulation, factorization, and substitution.
+
+
+What is approximation?
+
+Approximation is a method of representing a value or a function with a simpler or more convenient value or function. Approximation can be done using mathematical techniques such as Taylor series or polynomial approximation. It can also be done using numerical methods such as interpolation or curve fitting. The goal of approximation is to find a value or function that closely represents the original value or function while still being computationally efficient or easy to work with. An example of this would be approximating a complex function with a simpler function that can be evaluated much more quickly.
+
+Why is it used?
+
+Approximation is used when the exact solution to a problem is difficult or impossible to find. It involves finding a value or solution that is close to the true value or solution, usually within a certain level of accuracy or error. Approximation is used in many fields including mathematics, physics, engineering, and computer science. It is often used when solving complex problems or when dealing with large amounts of data. Additionally, it can also be used to make a mathematical model more tractable or to simplify a complex system. Approximation can be done using various methods such as Taylor series, finite differences, and numerical integration.
+
+What is the opposite of closed form?
+
+The opposite of closed form is an open form or implicit form. A closed-form solution, also known as an explicit solution, is a mathematical expression in terms of a finite number of standard functions. An open-form solution, also known as an implicit solution, does not have a simple, closed-form expression, and it needs to be solved by some other means, such as numerical methods.
+
+Explain open form with examples
+
+Open form refers to mathematical expressions or solutions that cannot be written in a closed, concise, and fixed form. These solutions may involve infinite series, integrals, or other mathematical constructs that cannot be expressed in a simple algebraic equation. Open form solutions are often used in fields such as calculus, physics, and engineering to model and understand complex systems.
+
+Examples of open form solutions include:
+
+Taylor series expansion of a function, which is an infinite sum of terms that approximate the function.
+Integral equations, which express a function in terms of an integral of another function.
+Differential equations, which express a function in terms of its derivatives.
+Fractals, which are geometric shapes that exhibit self-similarity at different scales.
+
+Explain integral equation in simple terms
+
+An integral equation is a type of mathematical equation that involves an integral, which is a mathematical concept used to calculate the area under a curve. It can also be used to calculate the total amount of a changing quantity over a certain interval. In simple terms, an integral equation relates an unknown function to the integral of another function. For example, the equation ∫f(x)dx = g(x) relates the integral of the function f(x) to the function g(x). The function f(x) is the unknown function that we are trying to find, and g(x) is a known function that we can use to calculate it.
+
+How to visualize this concept?
+
+An integral equation is a type of mathematical equation that relates a function to its integral. It can be visualized as a relationship between two quantities, where one is the function and the other is its integral. The integral is a measure of the area under the curve of the function, and the equation relates this area to the function itself.
+
+One example of an integral equation is the Fredholm equation of the second kind:
+
+∫ K(x,y)f(y)dy = g(x)
+
+In this equation, f(y) and g(x) are unknown functions, and K(x,y) is a known kernel function. The integral on the left-hand side represents the area under the curve of the product of the functions K(x,y) and f(y). The equation states that this area is equal to the function g(x).
+
+Another example is the Volterra integral equation:
+
+∫ K(x,y)f(y)dy = f(x) + ∫ G(x,y)f(y)dy
+
+In this equation, f(x) is the unknown function and K(x,y) and G(x,y) are known kernel functions. The first integral on the left-hand side represents the area under the curve of the product of the functions K(x,y) and f(y) and the second integral represents the area under the curve of the product of the functions G(x,y) and f(y). The equation states that the sum of these two areas is equal to the function f(x)
+
+It can be visualized as a curve that is related to its area under the curve, as well as the area of the other functions related to it.
+
+What are some practical application of integral equations?
+
+Integral equations are used in many areas of mathematics, physics, engineering, and other fields. Some practical applications include:
+
+Solving boundary value problems in physics and engineering: Integral equations can be used to find the solution to a differential equation with specific boundary conditions.
+
+Modeling heat transfer and diffusion: Integral equations can be used to describe how heat or a substance diffuses through a material.
+
+Image processing and computer vision: Integral equations can be used to analyze images and extract information from them.
+
+Financial modeling: Integral equations can be used to model the behavior of financial markets and to price derivatives.
+
+Control theory: Integral equations can be used in control systems to describe the dynamics of a system and to design controllers.
+
+Solving differential equations: Integral equations can be used to convert a differential equation into an integral equation, which can sometimes be easier to solve.
+
+In general, integral equations offer a powerful tool for solving a wide range of mathematical and physical problems. They can be used to model complex systems, to make predictions, and to design and optimize systems.
+
+What are some practical application of differential equations?
+
+Differential equations are used in a wide range of fields, including physics, engineering, economics, and biology. Some examples of practical applications include:
+
+Modeling the motion of objects in physics, such as the motion of a planet around the sun or the motion of a pendulum.
+
+Modeling the flow of fluids in engineering, such as the flow of water in a pipe or the flow of air over an airplane wing.
+
+Modeling the spread of diseases in biology, such as the spread of an infectious disease through a population.
+
+Modeling the behavior of electrical circuits in electrical engineering.
+
+Modeling the stock prices in finance and economics.
+
+Modeling the weather and climate in meteorology and atmospheric science.
+
+Modeling the growth and decay of populations in ecology.
+
+Modeling the behavior of structures and systems in mechanical engineering and civil engineering.
+
+Modeling the behavior of materials in chemical engineering, material science and solid mechanics
+
+Modeling the behavior of control systems in electrical engineering and control systems engineering.
+
+How to visualize this differential equations?
+
+Differential equations can be visualized in many ways, depending on the specific equation and the context in which it is used. Some common visualizations include:
+
+Graphs: A common way to visualize solutions to differential equations is to plot the solution as a function of one or more variables. For example, the solution to a simple harmonic oscillator equation, such as x'' + x = 0, can be plotted as a sine or cosine wave.
+
+Phase portraits: Another way to visualize solutions to differential equations is to plot the solution in the phase space of the system. This is often done for systems of differential equations, and can give a good sense of the behavior of the system over time.
+
+Streamlines: In some cases, it is useful to visualize solutions to differential equations in the form of streamlines, which show the flow of a fluid or other material through a system. For example, the streamlines of a fluid flowing around an obstacle can be used to understand the behavior of the fluid.
+
+Animation: In some cases, it can be helpful to animate the solutions to differential equations, in order to see how the solutions change over time. This can be done using software tools, such as Matlab or Python, to create dynamic visualizations of the solutions.
+
+Some practical applications of differential equations include:
+
+Modeling the motion of objects (e.g. celestial mechanics, engineering systems)
+Modeling the spread of diseases or information
+Modeling electrical circuits
+Modeling chemical reactions
+Describing the behavior of heat and waves
+Modeling the behavior of fluids and gases
+and many more.
+
+
+
+
+
 Explain small miniature man
 
 In TRIZ, the concept of a small miniature man (or a "miniature man") is a mental visualization tool used to help identify the underlying physical, chemical, and biological principles that govern a system or product. The small miniature man is a representation of a person who is small enough to fit inside the system or product, and can be used to visualize the different forces and interactions that take place within the system.

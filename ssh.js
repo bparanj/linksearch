@@ -21,7 +21,7 @@ window.dataTable = function () {
 }
 
 document.addEventListener('alpine:init', () => {
-
+	
 	// Magic: $clipboard
 	Alpine.magic('clipboard', () => {
 	  return subject => navigator.clipboard.writeText(subject)
