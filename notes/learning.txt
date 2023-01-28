@@ -28,3 +28,122 @@ Reflect on the connections you've made and consider how the new information rela
 Repeat the process for each section of the material.
 By using Vee analysis to organize and reflect on the information you're reading, you can improve your understanding of the material and remember it more easily.
 
+Explain analytic tool
+
+An analytic tool is a software or method used to analyze data and extract insights from it. This can include tools for data visualization, statistical analysis, machine learning, and more. Some examples of analytic tools include Excel, R, Python, Tableau, and Power BI. These tools can be used in a variety of fields such as business, finance, healthcare, and engineering, to name a few. They can be used to identify patterns, trends and make predictions, to test hypotheses and make decisions based on the data analyzed.
+
+What is the output of analytic tools?
+
+Analytic tools are used to process and analyze data, and the output can vary depending on the specific tool and the data being analyzed. Some common outputs of analytic tools include:
+
+Reports, summaries, and visualizations of the data, such as charts, graphs, and tables
+Insights and findings about patterns, trends, and relationships in the data
+Predictions or forecasts based on the data
+Recommendations for further action or decision making
+Identified outliers or anomalies in the data
+Identifying the root cause of a problem
+
+Explain frame of reference
+
+A frame of reference, also known as a reference frame, is a set of coordinates and a set of rules for measuring physical quantities, such as position, velocity, and acceleration. It is used to describe the position and motion of objects in space and time. In physics, a frame of reference is necessary to define the laws of physics and to make predictions about the behavior of physical systems. Examples of different frames of reference include an observer on the ground, an observer on a moving train, and an observer in outer space. The choice of frame of reference can affect the outcome of measurements and the conclusions that are drawn from them.
+
+How many frames of reference exist?
+
+There are an infinite number of frames of reference that can exist. A frame of reference is a set of coordinates used to describe the position and motion of an object. Different frames of reference can be used to observe the same physical phenomena, and each will have its own set of coordinates and its own rules for how to measure position and motion. The number of possible frames of reference is therefore limitless, and can be defined by any observer for any purpose.
+
+Explain Cornel Notes template
+
+The Cornell Notes template is a method of taking notes that is commonly used in schools and universities. It involves dividing a sheet of paper into three sections: a large section for taking notes on the main topic, a smaller section for summarizing the main points, and a section for questions and comments. The idea behind the template is to promote active listening and critical thinking by encouraging students to take notes in an organized and structured way. The template is named after the Cornell University where it was first developed and used. The template is divided into two columns, on the left side note-taking and on the right side summarizing and question-answer. The bottom of the page is used for the summary and review.
+
+Does it include diagrams?
+
+The Cornell Notes template is a method of note-taking that involves dividing a sheet of paper into three sections: a large cue column on the left, a main note-taking column in the center, and a summary column on the right. The cue column is used to list main ideas, key terms, or questions, while the main note-taking column is used to record information or notes. The summary column is used to summarize the main ideas or key takeaways from the notes. The template typically doesn't include diagrams but one can draw small diagrams on the space provided in the main note-taking column. This method of note-taking is often used in classroom settings and is designed to help students actively engage with the material, organize their notes, and review the material more effectively.
+
+What are the different fields of technology?
+
+There are many different fields of technology, some examples include:
+
+Information technology (IT)
+Biotechnology
+Nanotechnology
+Robotics
+Artificial intelligence (AI)
+Aerospace technology
+Medical technology
+Energy technology
+Environmental technology
+Communications technology
+Transportation technology
+Materials science and engineering
+Computer science
+Chemical engineering
+Electrical engineering
+Mechanical engineering
+Civil engineering
+Nuclear engineering
+Genetic engineering
+Robotics and automation
+Industrial engineering
+Marine technology
+Geotechnology
+Agriculture technology
+Textile technology
+Food technology
+Laser technology
+Digital technology
+Virtual reality technology
+Augmented reality technology
+Internet of Things (IoT) technology
+Blockchain technology
+Quantum computing technology
+This is not an exhaustive list, there are many other fields of technology as well.
+
+What is a paradigm?
+
+A paradigm is a set of assumptions, concepts, values, and practices that defines a particular perspective or approach to understanding and interpreting a phenomenon. In science and technology, a paradigm refers to a dominant theory or model that is widely accepted and used as the basis for research and experimentation. Paradigms can also refer to the dominant way of thinking or doing something in a particular field or industry. They shape the way people approach problems and develop solutions, and can change over time as new discoveries, ideas, and technologies emerge.
+
+Give examples for paradigm
+
+A paradigm is a commonly accepted set of beliefs or a dominant theory or model in a particular field. Examples of paradigms in different fields include:
+
+In science, the Copernican paradigm shift in astronomy where the Earth was no longer considered the center of the universe.
+In computing, the paradigm shift from mainframe computers to personal computers.
+In psychology, the shift from behaviorism to cognitive psychology.
+In sociology, the shift from structural functionalism to conflict theory.
+In economics, the shift from classical economics to Keynesian economics.
+In business, the shift from a product-centric to a customer-centric approach.
+
+Explain paradigm shift
+
+A paradigm shift refers to a fundamental change in the way that a particular field or industry operates, or in the way that people think about a particular concept or phenomenon. This can be brought about by a number of factors, including new discoveries, advances in technology, or changes in societal attitudes. Examples of paradigm shifts include the shift from the geocentric view of the universe to the heliocentric view, the shift from an agricultural to an industrial economy, and the shift from a mechanistic to an ecological worldview.
+
+Explain physical effects
+
+Physical effects refer to the observable and measurable changes that occur in the physical world as a result of a particular phenomenon or action. These effects can be caused by a variety of factors, such as natural processes, human activity, or the interactions between different physical systems. Examples of physical effects include changes in temperature, pressure, motion, energy, and composition of matter. The study of physical effects is a fundamental part of many scientific disciplines, including physics, chemistry, and engineering, and is used to understand and predict the behavior of natural and man-made systems.
+
+How does it differ from phenomena?
+
+A phenomenon is an occurrence that can be observed or perceived, while a physical effect is a change or influence on a physical system as a result of a phenomenon or action. In other words, a phenomenon is the event or occurrence itself, while a physical effect is the result or outcome of that event or occurrence on the physical system in question.
+
+What is feasibility space?
+
+Feasibility space refers to the range of possible solutions or options that are technically and economically viable for a given problem or challenge. It is a concept used in engineering, innovation, and problem-solving to identify and evaluate the potential solutions that are most likely to be successful. Feasibility space is often defined in terms of constraints, such as technical limitations, financial resources, and regulatory requirements, and is used to guide decision making and resource allocation during the design and development process.
+
+What is contradiction?
+
+A contradiction refers to a situation in which two or more statements, ideas, or actions cannot both be true or valid at the same time. It is a logical inconsistency or a conflict between two or more elements. In the field of problem-solving, contradictions are often used to identify and analyze the root cause of a problem, and to generate potential solutions. In TRIZ, contradictions are used as a tool for identifying and resolving conflicts between competing design parameters or requirements, and for identifying opportunities for innovation.
+
+Does contradiction represent the essence of a problem?
+
+Contradiction is a fundamental concept in TRIZ, and it is often used to identify and define problems. In TRIZ, a contradiction is defined as a situation where two or more conflicting requirements or objectives cannot be simultaneously satisfied. The process of resolving these contradictions is considered the essence of problem-solving in TRIZ. The idea is that by understanding and resolving the underlying contradictions, it becomes possible to arrive at a solution that satisfies all the requirements. This is why contradiction is seen as the essence of a problem in TRIZ.
+
+What is a procedure?
+
+A procedure is a set of instructions or a series of steps that are followed in order to complete a specific task or achieve a desired outcome. Procedures can be written or verbal, and can be used in a variety of fields, such as business, science, and technology. They can be simple or complex, and often involve a combination of actions, decision-making, and critical thinking. Procedures can be used to ensure consistency and quality in the completion of tasks, and they are often used in combination with protocols and guidelines to ensure best practices are followed.
+
+Explain analogous thinking
+
+Analogous thinking is a problem-solving technique that involves looking at similar situations, problems, or systems and drawing parallels or connections between them in order to find a solution. This type of thinking is particularly useful in situations where the problem at hand is new or unfamiliar, and there is limited knowledge or experience about how to solve it. By studying similar problems, individuals can identify common patterns, trends, or principles that can be applied to the current problem, and thus generate new ideas or solutions. Analogous thinking is often used in fields such as engineering, science, and design, where innovation and creativity are essential.
+
+
+

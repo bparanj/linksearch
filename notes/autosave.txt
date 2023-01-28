@@ -140,3 +140,45 @@ import { throttle } from 'lodash';
 
 Also please note that this is just one way to implement this restriction and it will work only if you are using a browser that support axios and lodash library.
 
+Compare riot.js and alpine.js
+
+Riot.js and Alpine.js are both JavaScript libraries for building user interfaces. However, they have some key differences in terms of their design philosophy and features.
+
+Riot.js is a lightweight and minimalistic library for building reusable UI components. It uses a custom syntax called "tag templates" that allows developers to create components using HTML, CSS, and JavaScript. Riot.js also has a built-in routing system and supports server-side rendering. The library is designed to be used in small to medium-sized applications and has a small footprint.
+
+Alpine.js, on the other hand, is a more minimalistic library that aims to provide a set of directives for manipulating the DOM in a similar way to Angular or Vue.js. It doesn't have a built-in routing system, but it can be used to build lightweight, interactive web pages and components. It has a small footprint, like Riot.js, and it is designed to be used in small to medium-sized applications.
+
+In summary, Riot.js and Alpine.js are both lightweight libraries for building user interfaces, but Riot.js has more features and a built-in routing system, while Alpine.js focuses on being minimalistic and providing a set of directives for manipulating the DOM.
+
+What should be the data set size for lunr.js search functionality to work without any problems?
+
+Lunr.js is a lightweight, client-side search library that is designed to work with small to medium-sized datasets. The exact size of the dataset that it can handle depends on several factors such as the complexity of the search queries, the amount of available memory on the client's machine, and the performance of the browser.
+
+In general, Lunr.js is able to handle datasets of up to several thousand documents without any problems. However, as the size of the dataset increases, the performance of the search may start to degrade. The performance of the search can be improved by indexing the data on the client side and by using simple queries.
+
+If you have a very large dataset, it is recommended to use a server-side search engine such as Elasticsearch or Solr, which can handle much larger datasets and have more advanced search capabilities. These engines can be used in combination with Lunr.js as a client-side library, to provide a fast and efficient search experience to the end-user.
+
+It's worth noting that if you have a very small dataset, it's better to use an in-memory search or a simple filter function rather than using a search engine like Lunr.js or Elasticsearch.
+
+Can you elaborate on the several thousand documents ?
+
+Sure, when I mentioned "several thousand documents", I was referring to the upper limit of the number of documents that Lunr.js is able to handle without experiencing significant performance degradation. However, the exact number of documents that the library can handle depends on several factors, such as the complexity of the search queries, the amount of available memory on the client's machine, and the performance of the browser.
+
+For example, if your search queries are simple and only involve a few keywords, then Lunr.js should be able to handle a larger number of documents. Similarly, if the client's machine has a large amount of memory, then the library should be able to handle a larger dataset. On the other hand, if the search queries are complex, or the client's machine has limited memory, then the library may experience performance issues when handling a large dataset.
+
+It's worth noting that the size of the documents themselves also plays a role. If your documents are very large, it will take more memory and computational power to index and search through them, than if they were smaller.
+
+As a general rule of thumb, you can expect Lunr.js to handle a dataset of several thousand documents without significant performance degradation. However, it's always best to test the library with your specific dataset and use cases to determine the appropriate number of documents for your specific application.
+
+Let's say each document is a blog post with less than 1000 words. How many of these can be used without impacting the performance?
+
+If each document is a blog post with less than 1000 words, then you can expect Lunr.js to handle a larger number of documents than if the documents were larger. This is because smaller documents take up less memory and require less computational power to index and search through.
+
+As a rough estimate, you can expect Lunr.js to handle a dataset of tens of thousands of blog posts with less than 1000 words without significant performance degradation. However, the exact number of documents that the library can handle will depend on several factors such as the complexity of the search queries, the amount of available memory on the client's machine, and the performance of the browser.
+
+It's always best to test the library with your specific dataset and use cases to determine the appropriate number of documents for your specific application. In general, the more documents you have, the more memory and computational power will be required to index and search through them, so the best practice would be to test the performance of your specific use case and adjust accordingly.
+
+
+
+
+
