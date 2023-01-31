@@ -16,6 +16,30 @@ Problem segmentation: Break down the problem or task that the software is trying
 
 By applying the TRIZ segmentation principle in this way, software developers can improve the quality of their code, and make it more adaptable to changing requirements.
 
+Can we segment a system based on the rates at which they change?
+
+Yes, a system can be segmented based on its rate of change. This type of segmentation is called dynamic segmentation and is useful in many fields such as control systems, signal processing and computer graphics. The segments can be based on the speed, acceleration, or any other relevant metric of change.
+
+What are the other factors that we can use to segment a system?
+
+Other factors that can be used to segment a system include:
+
+Functionality: based on the specific task or function a component of the system performs.
+
+Geography: based on geographical location or physical location of the components within a system.
+
+Data: based on the data type, format, or content of the data used or produced by the components of the system.
+
+Time: based on the temporal aspect of the system, such as real-time or batch processing.
+
+User behavior: based on the behavior or demographic of users interacting with the system.
+
+Device: based on the type of device used to access or interact with the system.
+
+Network topology: based on the physical or logical connections between components of the system.
+
+Capacity: based on the processing or storage capacity of the components of the system.
+
 What are the benefits of segmentation?
 
 Improved understanding: Segmenting a system or problem into smaller parts makes it easier to understand the different components and their interactions.
