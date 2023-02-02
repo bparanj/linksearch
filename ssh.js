@@ -16,7 +16,26 @@ window.dataTable = function () {
         this.items = data
       }
       // console.log(this.items.length)      
-    }
+    },
+		tooltip(message, el) {
+		  let instance = tippy(el, { content: message, trigger: 'manual' })
+	    instance.show()
+
+	    setTimeout(() => {
+	      instance.hide()
+
+	      setTimeout(() => instance.destroy(), 150)
+	    }, 2000)
+		},
+		copyToClipboard(subject, el) {
+			navigator.clipboard.writeText(subject)
+			.then(() => {
+				this.tooltip("Copied!", el)
+			})
+			.catch(error => {
+				console.error('Failed to copy to clipboard: ', error)
+			})
+		}
   }
 }
 

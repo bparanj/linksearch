@@ -54,6 +54,7 @@ The bookmark link is dynamically bound to a variable using Aline bind directive.
 
 # Tasks
 
+- Make both fields use copyToClipboard function, see if the magic methods can be deleted.
 - Start at loops.html to see how add works
 - Setup paid Tailwind to make landing.html work
 		Use PostCSS and npm to setup landing.html
