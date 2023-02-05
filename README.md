@@ -36,6 +36,7 @@ The alpine.html does an exact string search using Javascript. The search data is
 | table.html      | Simplified version of search.html 															       |
 | landing.html    | Uses paid Tailwind components  																				 |
 | table.html      | Removed number of rows dropdown and pagination. Starting point				 |
+| catalog.html    | A catalog of books to search, sort and track reading of the books			 |
 
 ## Copy SSH Credentials to Clipboard
 
