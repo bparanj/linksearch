@@ -21,6 +21,7 @@ Library Versions
 | ssh.html        | Ready to use for search and copy credentials to clipboard 						 |
 | copy.html       | Simple javascript copy feature 																				 |
 | bookmark.html   | First working version complete													 							 |
+| books.html      | Search, sort by name and author													 							 |
 | alpine.html     | Used for learning purposes only 																			 |
 
 The alpine.html does an exact string search using Javascript. The search data is on the client and stored as a JSON collection of objects. Library versions:

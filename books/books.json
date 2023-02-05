@@ -1,0 +1,116 @@
+[
+	{
+		"id":1,
+		"name":"Engineering of Creativity Introduction to TRIZ Methodology of Inventive Problem Solving",
+		"author":"Semyon D. Savransky",
+		"year":1975
+	},
+	{
+		"id":2,
+		"name":"TRIZ For Dummies",
+		"author":"Lilly Haines-Gadd",
+		"year":1975
+	},
+	{
+		"id":3,
+		"name":"Innovation AlgorithmTRIZ, systematic innovation and technical creativity",
+		"author":"Genrich Altshuller",
+		"year":1975
+	},
+	{
+		"id":4,
+		"name":"Lean TRIZ how to dramatically reduce product-development costs with this innovative problem-solving tool",
+		"author":"Harrington, H. James",
+		"year":1975
+	},
+	{
+		"id":5,
+		"name":"TRIZ for Engineers: Enabling Inventive Problem Solving",
+		"author":"Karen Gadd",
+		"year":1975
+	},
+	{
+		"id":6,
+		"name":"Advances and Impacts of the Theory of Inventive Problem Solving The TRIZ Methodology, Tools and Case Studies",
+		"author":"Sebastian Koziołek, Leonid Chechurin etc",
+		"year":1975
+	},
+	{
+		"id":7,
+		"name":"Innovation on Demand New Product Development Using TRIZ",
+		"author":"Victor Fey, Eugene Rivin",
+		"year":1975
+	},
+	{
+		"id":8,
+		"name":"Inventive Thinking through TRIZ A Practical Guide, Second Edition",
+		"author":"Michael A. Orloff",
+		"year":1975
+	},
+	{
+		"id":9,
+		"name":"Modern TRIZ A Practical Course with EASyTRIZ Technology",
+		"author":"Michael A. Orloff",
+		"year":1975
+	},
+	{
+		"id":10,
+		"name":"Modern TRIZ Modeling in Master Programs - Introduction to TRIZ Basics at University and Industry",
+		"author":"Orloff, Michael A",
+		"year":1975
+	},
+	{
+		"id":11,
+		"name":"Research and Practice on the Theory of Inventive Problem Solving (TRIZ) Linking Creativity, Engineering and Innovation",
+		"author":"Leonid Chechurin",
+		"year":1975
+	},
+	{
+		"id":12,
+		"name":"Simplified TRIZ New Problem Solving Applications for Technical and Business Professionals, 3rd Edition",
+		"author":"Kalevi Rantanen, David W. Conley, Ellen R. Domb",
+		"year":1975
+	},
+	{
+		"id":13,
+		"name":"Trimming, Miniaturization and Ideality via Convolution Technique of TRIZ A Guide to Lean and High-level Inventive Design",
+		"author":"Saurabh Kwatra, Yuri Salamatov",
+		"year":1975
+	},
+	{
+		"id":14,
+		"name":"TRIZ POWER TOOLS Job 1 Discovering Markets Carving out New Turf in Saturated Markets",
+		"author":"Larry Ball and others",
+		"year":1975
+	},
+	{
+		"id":15,
+		"name":"TRIZ POWER TOOLS Job 2 Choosing Features What Features Will Excite the Target Market",
+		"author":"Larry Ball and others",
+		"year":1975
+	},
+	{
+		"id":16,
+		"name":"TRIZ POWER TOOLS Skill 1 Resolving Contradictions The Skill that Will Give You the Confidence to Do the Rest",
+		"author":"",
+		"year":1975
+	},
+	{
+		"id":17,
+		"name":"TRIZ. Theory of Inventive Problem Solving Level 1",
+		"author":"Vladimir Petrov",
+		"year":1975
+	},
+	{
+		"id":18,
+		"name":"Trizics Teach yourself TRIZ, how to invent, innovate and solve impossible technical problems systematically",
+		"author":"Gordon Cameron",
+		"year":1975
+	},
+	{
+		"id":19,
+		"name":"Triz the Right Solution at the Right Time A Guide to Innovative Problem Solving",
+		"author":"Yuri Salamatov",
+		"year":1975
+	}
+]
