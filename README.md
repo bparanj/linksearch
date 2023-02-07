@@ -58,7 +58,7 @@ The bookmark link is dynamically bound to a variable using Aline bind directive.
 
 - Make both fields use copyToClipboard function, see if the magic methods can be deleted.
 - Start at loops.html to see how add works
-- Setup paid Tailwind to make landing.html work
+- Setup paid Tailwind to make landing.html work. Refer the GPT instructions.
 		Use PostCSS and npm to setup landing.html
 - Refer model.html and see how to add input text field to the color dropdown. Add the new color to the dropdown if Add button is clicked.
 		Identify the data. colors: Red, Green, Blue etc
