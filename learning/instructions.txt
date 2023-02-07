@@ -1,0 +1,9 @@
+Here is an example of how you can add a custom drop-down list to TinyMCE:
+
+This code initializes TinyMCE with the lists plugin, and adds a custom button to the toolbar with the title "Custom Dropdown List". The button is defined as a splitbutton type, which allows you to display a drop-down menu when you click on the button. The menu contains three options, and each option inserts a different piece of content into the editor when selected.
+
+You can add additional options to the drop-down list by adding more objects to the menu array. You can also change the title, icon, and behavior of the button by modifying the title, icon, and onAction properties.
+
+In this HTML code, the TinyMCE JavaScript library is included in the header section, and the custom drop-down list functionality is defined in the script tag. The text area that will be transformed into a TinyMCE editor is defined in the body section of the HTML code.
+
+When the HTML code is loaded in a web browser, the TinyMCE editor will be initialized, and the custom drop-down list button will be added to the toolbar, allowing you to insert content into the editor by selecting an option from the drop-down list.
